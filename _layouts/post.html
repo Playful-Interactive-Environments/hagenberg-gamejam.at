@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+{% include header_2.html %}
+{% include page_header_2.html %}
+<!-- Start single_blog_main section -->
+<section class="onova_single_blog single_blog_main section_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="single_blog_main_content">
+                    <div class="content_text_area">
+                       {{content}}
+                    </div>
+                    <div class="content_share_area">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="tags_area">
+                                    <h4>Releted Tags</h4>
+                                    {{page | tags | capitalize | replace: ",","  "}}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="social_area">
+                                    <h4>Social Share</h4>
+                                    {% include social_share.html %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prev_next_area">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="post_content">
+								  {% if page.previous.url %}
+								    <a class="prev" href="{{page.previous.url}}">Prev Post</a>
+								  {% endif %}
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="post_content text-center">
+                                    <img src="{{relative_url}}/assets/images/icon_2.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="post_content text-right">
+								  {% if page.next.url %}
+								    <a class="next" href="{{page.next.url}}">Next Post</a>
+								  {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="discus-comments mt-5">
+                	<div id="disqus_thread"></div>
+					<script>
+
+
+					var disqus_config = function () {
+					 this.page.url = '{{site.url}}{{page.url}}';  
+					 this.page.identifier = '{{page.url}}'; 
+					};
+					
+					(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://onova-netlify-com.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					<script id="dsq-count-scr" src="//onova-netlify-com.disqus.com/count.js" async></script>
+                </div>
+            </div>
+            <div class="col-lg-4">
+              {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End single_blog_main section -->
+
+{% include footer.html %}
