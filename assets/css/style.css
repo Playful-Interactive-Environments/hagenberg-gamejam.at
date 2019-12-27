@@ -4410,8 +4410,8 @@ textarea.form_control {
 
 .portfolio_box_3 .portfolio_img {
     margin-top: 40px;
-    padding: 20px 27px;
-    background: rgb(255, 247, 247);
+    /*padding: 20px 27px;
+    background: rgb(255, 247, 247);*/
 }
 
 .portfolio_box_3 .portfolio_info {
