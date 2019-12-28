@@ -13,7 +13,10 @@
                             <h1>Hagenberg Game Jam</h1>
                         </div>
                         <div class="onova_main_button">
-                            <a href="{{ site.url | append: '/' | append: page.latest_jam }}" class="onova_btn onova_btn_2 main_btn_1">View the games of {{ page.latest_jam }}</a>
+                            <a href="{{ site.url | append: '/' | append: site.latest_jam }}" class="onova_btn onova_btn_2 main_btn_1">View the games of {{ site.latest_jam }}</a>
+                            {%- if site.voting_active -%}
+                            <a href="{{ site.voting_url }}" class="onova_btn onova_btn_2 main_btn_1" target="_blank">Vote for the games of {{ site.latest_jam }}</a>
+                            {%- endif -%}
                         </div>
                     </div>
                 </div>

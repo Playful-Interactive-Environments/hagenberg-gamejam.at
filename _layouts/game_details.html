@@ -39,7 +39,9 @@ title: "Case Details"
                 {% if dl.file contains "http://" or dl.file contains "https://" %}
                 <a href="{{ dl.file }}" class="onova_btn">{{ dl.platform }}</a>
                 {% else %}
-                <a href="{{ dl.file | prepend: 'games/' | prepend: page.url | prepend: site.baseurl }}" class="onova_btn">{{ dl.platform }}</a>
+                {% assign url_string = page.url | split: '/' %}
+                {% assign year = url_string[1] %}
+                <a href="{{ dl.file | prepend: '/' | prepend: year | prepend: '/games/' | prepend: site.url }}" class="onova_btn">{{ dl.platform }}</a>
                 {% endif %}
               </div>
               {% endfor %}

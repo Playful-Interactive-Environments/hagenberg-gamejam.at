@@ -1,0 +1,62 @@
+---
+layout: default
+title: "Rules"
+---
+
+{% include header_3.html %}
+{% include page_header_2.html %}
+<!-- Start onova_faq section -->
+<section class="onova_faq onova_same_faq onova_faq_2 section_padding">
+    <div class="container">
+        <div class="row">
+            {% assign column_size = site.data.rules.size | divided_by: 2.0 | ceil %}
+            <div class="col-lg-6">
+                <div class="faq_accoridian faq_accoridian_2">
+                    <div id="accordion">
+                        {% for rule in site.data.rules limit: column_size %}
+                        <div class="card">
+                            <div class="card-header" id="ono_1_head_{{ forloop.index }}">
+                                <h5><a href="#" data-toggle="collapse" data-target="#ono_1_col_{{ forloop.index }}" aria-expanded="false">
+                                    <i class="far fa-plus"></i>
+                                    <i class="far fa-minus"></i>
+                                    {{ rule.question }}
+                                </a></h5>
+                            </div>
+                            <div id="ono_1_col_{{ forloop.index }}" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    {{ rule.answer }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="faq_accoridian faq_accoridian_2">
+                    <div id="accordion_2">
+                        {% for rule in site.data.rules offset: column_size %}
+                        {% assign index_offset = forloop.index | plus: column_size %}
+                        <div class="card">
+                            <div class="card-header" id="ono_1_head_{{ index_offset }}">
+                                <h5><a href="#" data-toggle="collapse" data-target="#ono_1_col_{{ index_offset }}" aria-expanded="false">
+                                    <i class="far fa-plus"></i>
+                                    <i class="far fa-minus"></i>
+                                    {{ rule.question }}
+                                </a></h5>
+                            </div>
+                            <div id="ono_1_col_{{ index_offset }}" class="collapse" data-parent="#accordion_2">
+                                <div class="card-body">
+                                    {{ rule.answer }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End onova_faq section -->
+{% include footer.html %}

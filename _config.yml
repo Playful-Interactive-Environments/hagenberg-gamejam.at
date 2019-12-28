@@ -19,6 +19,9 @@ facebook_url: "https://www.facebook.com/playful.interactive.environments/"
 youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
 github_url: "https://github.com/Playful-Interactive-Environments"
 
+latest_jam: "2018"
+voting_active: true
+voting_url: "https://www.facebook.com/pg/playful.interactive.environments/photos/?tab=album&album_id=2355654774500502"
 
 # Build settings
 theme: minima

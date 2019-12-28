@@ -1,0 +1,2 @@
+# Do not commit the games to git (usually exceeds git-lfs quickly)
+.zip
