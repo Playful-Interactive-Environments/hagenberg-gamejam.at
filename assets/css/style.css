@@ -180,6 +180,8 @@ span.theme_span {
     background: #0574ff;
     text-transform: uppercase;
     transition: all .5s;
+    margin-top: 5px;
+    margin-bottom:5px;
 }
 
 .onova_btn:hover,
@@ -742,7 +744,7 @@ nav.main_menu {
     background: rgb(5, 116, 255);
     border: 4px solid rgb(255, 255, 255);
     box-shadow: 0px 10px 20px 0px rgba(5, 116, 255, 0.4);
-    margin-bottom: ;
+    margin-bottom: 0;
 }
 
 .about_right_content span.about_span {
@@ -1345,13 +1347,13 @@ textarea.form_control {
 .team_info {
     padding: 40px;
     border: 1px solid #1d81ff;
-    border-top: none;
+    /*border-top: none;*/
 }
 
 .team_info h3 {
     font-size: 32px;
     color: #fff;
-    line-height: 70px;
+    /*line-height: 70px;*/
 }
 
 .team_info p {
@@ -1390,6 +1392,13 @@ textarea.form_control {
 .call_to_action_1 .call_title{
     margin-bottom: 62px;
 }
+
+.call_to_action_1 .call_text a,
+.call_to_action_1 .call_text a:hover,
+.call_to_action_1 .call_text a:focus {
+    color: #0574ff;
+}
+
 .call_title h2 {
     color: #fff;
     font-size: 55px;
@@ -1657,7 +1666,9 @@ textarea.form_control {
     color: #8fa3b4;
 }
 
-.onova_footer_1 .footer_link ul li a:hover;
+.onova_footer_1 .footer_link ul li a:hover {
+
+}
 
 .onova_footer_1 .footer_link ul li a:focus {
     color: #8fa3b4;
@@ -2178,7 +2189,7 @@ textarea.form_control {
     margin-bottom: 15px;
 }
 
-@media only and (min-width: 1170px) {
+@media only screen and (min-width: 1170px) {
     .counterup_container {
         width: 100%;
     }
@@ -4375,7 +4386,7 @@ textarea.form_control {
 
 .portfolio_box_2 .portfolio_info {}
 
-@media screen only (min-width: 1170px) {
+@media only screen and (min-width: 1170px) {
     .portfolio_container {
         max-width: 100%;
     }
@@ -4520,7 +4531,7 @@ textarea.form_control {
 }
 
 /*
-	End case_details.html css
+	End game_details.html css
 */
 
 /*

@@ -1,5 +1,5 @@
 <!-- Start onova_breadcrumb section -->
-<section class="onova_breadcrumb" style="background-image: url({{relative_url}}{{page.page_header_bg}});">
+<section class="onova_breadcrumb" style="background-image: url({{ page.headerimage | prepend: 'images/' | prepend: site.baseurl }});">
     <div class="onova_overlay_2"></div>
     <div class="container">
         <div class="row">
@@ -8,7 +8,10 @@
                     <h2>{{page.title}}</h2>
                     <ul>
                         <li><a href="{{site.url}}">Home</a></li>
-                        <li class="active"><a href="{{page.url}}">{{page.title}}</a></li>
+                        {% assign url_string = page.url | split: '/' %}
+                        {% assign year = url_string[1] %}
+                        <li><a href="{{ site.url | append: '/' | append: year | append: '/' }}">{{ year }}</a></li>
+                        <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
                     </ul>
                 </div>
             </div>

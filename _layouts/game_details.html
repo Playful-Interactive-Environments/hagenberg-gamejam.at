@@ -1,0 +1,80 @@
+---
+layout: default
+title: "Case Details"
+---
+
+{% include header_3.html %}
+{% include page_header.html %}
+<!-- Start onova_case_main_section -->
+<section class="onova_case_main_section section_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="case_top_detail">
+          <div class="row align-items-baseline">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="case_top_box">
+                <h3>Created By</h3>
+                <p>{{ page.team.name }}</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="case_top_box">
+                <h3>Players</h3>
+                <p>{{ page.game.players }}</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="case_top_box">
+                <h3>Input</h3>
+                <p>{{ page.game.controls | array_to_sentence_string | capitalize }}</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="case_top_box">
+                <h3>Download</h3>
+                {% for dl in page.download %}
+
+                {% if dl.file contains "http://" or dl.file contains "https://" %}
+                <a href="{{ dl.file }}" class="onova_btn">{{ dl.platform }}</a>
+                {% else %}
+                <a href="{{ dl.file | prepend: 'games/' | prepend: page.url | prepend: site.baseurl }}" class="onova_btn">{{ dl.platform }}</a>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="case_top_img">
+          <div class="onova_img">
+            <img src="{{ page.images[0].file | prepend: 'images/' | prepend: site.baseurl }}" class="img-fluid" alt="">
+          </div>
+          <div class="case_top_content">
+            <div class="case_inner_content">
+              <h2>{{ page.game.name }}</h2>
+              {{ page.game.description | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="case_top_main_content">
+          <div class="row">
+            {% for img in page.images offset:1 %}
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="onova_img">
+                <a href="{{ img.file | prepend: 'images/' | prepend: site.baseurl }}" data-lightbox="{{ page.game.name | slugify: 'pretty' }}" data-title="{{ page.game.name }} by {{ page.team.name }}">
+                  <img src="{{ img.file | prepend: 'images/' | prepend: site.baseurl }}" class="img-fluid" alt="{{ page.game.name }} Image {{ forloop.index }}">
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End onova_case_main_section -->
+{% include team_members.html %}
+
+{% include footer_2.html %}

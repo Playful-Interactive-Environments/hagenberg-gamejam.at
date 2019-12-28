@@ -42,6 +42,28 @@ defaults:
     values:
       layout: "gamejam"
 
+page_gen:
+  - index_files: false
+    data: "games2015"
+    template: "game_details"
+    name: game.name
+    dir: "2015"
+  - index_files: false
+    data: "games2016"
+    template: "game_details"
+    name: game.name
+    dir: "2016"
+  - index_files: false
+    data: "games2017"
+    template: "game_details"
+    name: game.name
+    dir: "2017"
+  - index_files: false
+    data: "games2018"
+    template: "game_details"
+    name: game.name
+    dir: "2018"
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
