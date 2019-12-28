@@ -9,16 +9,15 @@ website: "https://pie-lab.at/"
 phone_number: "+8801763633959"
 email: "pie@fh-hagenberg.at"
 company_name: "Playful Interactive Environments"
-site_logo_one: "/assets/images/logo_1.png"
-site_logo_two: "/assets/images/logo_3.png"
-site_logo_three: "/assets/images/logo_2.png"
+company_url: "https://pie-lab.at/"
+company_address: "Softwarepark 11, 4232 Hagenberg, Austria"
+site_logo_dark: "/assets/images/gamejam_logo_dark.png"
+site_logo_light: "/assets/images/gamejam_logo_light.png"
 site_name: "Hagenberg Game Jam"
 
 facebook_url: "https://www.facebook.com/playful.interactive.environments/"
-twitter_url: "https://twitter.com/onva"
-pinterest_url: "https://pinterest.com/onva"
-linkedin_url: "https://linkedin.com/onva"
-instagram_url: "https://www.instagram.com/onva"
+youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
+github_url: "https://github.com/Playful-Interactive-Environments"
 
 
 # Build settings

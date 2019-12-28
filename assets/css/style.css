@@ -342,6 +342,10 @@ header.onova_header.onova_header_1 {
     margin-left: 20px;
 }
 
+.header_logo {
+    max-height: 80px;
+}
+
 .sticky{
     position: fixed;
     top: 0;
@@ -1577,6 +1581,10 @@ textarea.form_control {
 
 .footer_title h5 {
     color: #fff;
+}
+
+.footer_logo {
+    width: 50%;
 }
 
 .footer_widget_list ul.widget_list li {
