@@ -32,6 +32,39 @@
     - file: "abedtimestory.zip"
       platform: Windows
 - game:
+    name: Erfrechung
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      It is 2 minutes to midnight, the world is soon to be destroyed by humanity. Now it is on you to fasten up this process. Or be a good child of mother earth and do nothing at all and see what's happening.
+
+      You must complete a series of minigames to destroy the world, you have 2 minutes, good luck!
+  team:
+    name: P2W
+    members:
+      - Patrick Brandstätter
+      - Jonathan Dilger
+      - Daniela Krückl
+      - Martina Maurer
+      - Stepan Sobanov
+      - Christoph Weidlinger
+  winner: no
+  headerimage: "erfrechung_header.jpg"
+  images:
+    - file: "erfrechung_image1_full.jpg"
+      thumb: "erfrechung_image1_thumb.jpg"
+    - file: "erfrechung_image2_full.jpg"
+      thumb: "erfrechung_image2_thumb.jpg"
+    - file: "erfrechung_image3_full.jpg"
+      thumb: "erfrechung_image3_thumb.jpg"
+    - file: "erfrechung_image4_full.jpg"
+      thumb: "erfrechung_image4_thumb.jpg"
+  download:
+    - file: "erfrechung.zip"
+      platform: Windows
+- game:
     name: Eternal Duty
     players: 1
     controls:
