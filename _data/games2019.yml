@@ -32,6 +32,40 @@
     - file: "abedtimestory.zip"
       platform: Windows
 - game:
+    name: BLUT BLUT BLUT
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are a vampire that was kidnapped by a blood cult. You awake, mortally wounded, in a cave surrounded by cultists. They want to sacrifice you to their dark god, you want to live. In compromise you slaughter them.
+
+      But the only weapon you currently possess is your own blood. You lose blood, and come closer to death, with every second that passes and attacking your foes only weakens you further. But luckily you are a vampire and can restock your blood reserves by draining blood from fallen enemies.
+
+      Now you have to fight your way out of the cults cozy home cave but beware of traps, pentagrams, and the fanatic followers of the EVIL CULT LEADER.
+  team:
+    name: Strohhalm Sternchen
+    members:
+      - Sebastian Beck
+      - Florian Buger
+      - Sonja Futterknecht
+      - David Holy
+      - Jakob Indra
+  winner: no
+  headerimage: "blutblutblut_header.jpg"
+  images:
+    - file: "blutblutblut_image1_full.jpg"
+      thumb: "blutblutblut_image1_thumb.jpg"
+    - file: "blutblutblut_image2_full.jpg"
+      thumb: "blutblutblut_image2_thumb.jpg"
+    - file: "blutblutblut_image3_full.jpg"
+      thumb: "blutblutblut_image3_thumb.jpg"
+    - file: "blutblutblut_image4_full.jpg"
+      thumb: "blutblutblut_image4_thumb.jpg"
+  download:
+    - file: "blutblutblut.zip"
+      platform: Windows
+- game:
     name: Erfrechung
     players: 1
     controls:
