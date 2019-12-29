@@ -164,3 +164,36 @@
       platform: Mac OS X
     - file: "summoningpetdemonsLinux.zip"
       platform: Linux
+- game:
+    name: The Blame Game
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      The end of the world is near.
+      Ocean levels are rising and landscapes are taken minute by minute.
+      You’re at humanity’s last resort, Ark Incorporated Headquarters, doing the last thing a sane person can possibly do now: blaming others to make yourself feel better.
+      Reach the moral high ground to survive!
+  team:
+    name: Robotic Weasel Manslaughter
+    members:
+      - Rene Buchmayer
+      - Lisa Buttinger
+      - Thomas Pichler
+      - Florian Rath
+      - Isabella Rathner
+  winner: no
+  headerimage: "theblamegame_header.jpg"
+  images:
+    - file: "theblamegame_image1_full.jpg"
+      thumb: "theblamegame_image1_thumb.jpg"
+    - file: "theblamegame_image2_full.jpg"
+      thumb: "theblamegame_image2_thumb.jpg"
+    - file: "theblamegame_image3_full.jpg"
+      thumb: "theblamegame_image3_thumb.jpg"
+    - file: "theblamegame_image4_full.jpg"
+      thumb: "theblamegame_image4_thumb.jpg"
+  download:
+    - file: "theblamegame.zip"
+      platform: Windows
