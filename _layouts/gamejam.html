@@ -7,46 +7,48 @@ layout: default
 {% include call_to_action.html %}
 <!-- Start onova_portfolio section -->
 <section class="onova_portfolio onova_portfolio_3 section_padding">
-	<div class="container">
-		<div class="row">
-            <div class="col-lg-12">
-                <div class="portfolio_button text-center">
-                    <button class="portfolio_btn btn_active" data-filter="*">All Games</button>
-                    <button class="portfolio_btn" data-filter=".singleplayer">Singleplayer</button>
-                    <button class="portfolio_btn" data-filter=".multiplayer">Multiplayer</button>
-                    <button class="portfolio_btn" data-filter=".gamepad">Gamepad</button>
-                    <button class="portfolio_btn" data-filter=".keyboard">Keyboard</button>
-                    <button class="portfolio_btn" data-filter=".mouse">Mouse</button>
-                </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="portfolio_button text-center">
+          <button class="portfolio_btn btn_active" data-filter="*">All Games</button>
+          <button class="portfolio_btn" data-filter=".singleplayer">Singleplayer</button>
+          <button class="portfolio_btn" data-filter=".multiplayer">Multiplayer</button>
+          <button class="portfolio_btn" data-filter=".gamepad">Gamepad</button>
+          <button class="portfolio_btn" data-filter=".keyboard">Keyboard</button>
+          <button class="portfolio_btn" data-filter=".mouse">Mouse</button>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio_grid">
+      <div class="row">
+        {% for entry in site.data[page.data] %}
+        {% if entry.game.players == 1 %}
+        {% assign nr_of_players = "singleplayer" %}
+        {% else %}
+        {% assign nr_of_players = "multiplayer" %}
+        {% endif %}
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio_single {{ nr_of_players }} {{ entry.game.controls | join: ' ' }}">
+          <div class="portfolio_box portfolio_box_3">
+            <div class="portfolio_tag">
+              <a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}" class="tag">{{ entry.team.name }}</a>
+              <a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}"><h3>{{ entry.game.name }}</h3></a>
             </div>
+            <div class="portfolio_img">
+              <a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}" class="tag">
+                <img src="{{ entry.headerimage | prepend: 'images/' | prepend: page.url | prepend: site.baseurl }}" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="portfolio_info">
+              <p>{{ entry.game.description | truncatewords: 20 }}</p>
+              <p><a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}" class="btn_link">Read More</a></p>
+            </div>
+          </div>
         </div>
-        <div class="portfolio_grid">
-        	<div class="row">
-            {% for entry in site.data[page.data] %}
-            {% if entry.game.players == 1 %}
-            {% assign nr_of_players = "singleplayer" %}
-            {% else %}
-            {% assign nr_of_players = "multiplayer" %}
-            {% endif %}
-        		<div class="col-lg-4 col-md-6 col-sm-12 portfolio_single {{ nr_of_players }} {{ entry.game.controls | join: ' ' }}">
-        			<div class="portfolio_box portfolio_box_3">
-        				<div class="portfolio_tag">
-        					<a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}" class="tag">{{ entry.team.name }}</a>
-        					<a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}"><h3>{{ entry.game.name }}</h3></a>
-        				</div>
-        				<div class="portfolio_img">
-        					<img src="{{ entry.headerimage | prepend: 'images/' | prepend: page.url | prepend: site.baseurl }}" class="img-fluid" alt="">
-        				</div>
-        				<div class="portfolio_info">
-                  <p>{{ entry.game.description | truncatewords: 20 }}</p>
-        					<p><a href="{{ entry.game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}" class="btn_link">Read More</a></p>
-        				</div>
-        			</div>
-        		</div>
-            {% endfor %}
-        	</div>
-        </div>
-	</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </section>
 <!-- End onova_portfolio section -->
 

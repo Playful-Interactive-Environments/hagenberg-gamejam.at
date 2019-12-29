@@ -16,6 +16,8 @@
       url: "2017"
     - text: "2018"
       url: "2018"
+    - text: "2019"
+      url: "2019"
 
 - text: Rules
   url: "rules.html"

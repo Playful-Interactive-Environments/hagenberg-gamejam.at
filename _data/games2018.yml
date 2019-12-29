@@ -14,7 +14,7 @@
       - Eva-Maria Hobl
       - Susanne Teufelauer
       - Julian Zauner
-  winner: no
+  winner: people
   headerimage: "aubandln_header.jpg"
   images:
     - file: "aubandln_image1_full.jpg"
@@ -254,7 +254,7 @@
       - Domink Hackl
       - Michael Klammer
       - Lukas Paul
-  winner: no
+  winner: jury
   headerimage: "primedelivery_header.jpg"
   images:
     - file: "primedelivery_image1_full.jpg"

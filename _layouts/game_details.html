@@ -43,8 +43,8 @@ title: "Case Details"
                 {% assign year = url_string[1] %}
                 <a href="{{ dl.file | prepend: '/' | prepend: year | prepend: '/games/' | prepend: site.url }}" class="onova_btn">{{ dl.platform }}</a>
                 {% endif %}
+                {% endfor %}
               </div>
-              {% endfor %}
             </div>
           </div>
         </div>

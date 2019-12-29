@@ -1,0 +1,133 @@
+- game:
+    name: A Bedtime Story
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      As a little girl, you will fight against monsters to prove to your father that you are already grown up.
+      You start close to midnight but you must return to your home before midnight or your mother will be very angry.
+
+      Enjoy the beautiful graphics and the action in those fights.
+
+      Let yourself be surprised at the end.
+  team:
+    name: Nuclear Rodent Attack
+    members:
+      - Dario Ackermann
+      - Thomas Förg
+      - Valentin Postl
+  winner: no
+  headerimage: "abedtimestory_header.jpg"
+  images:
+    - file: "abedtimestory_image1_full.jpg"
+      thumb: "abedtimestory_image1_thumb.jpg"
+    - file: "abedtimestory_image2_full.jpg"
+      thumb: "abedtimestory_image2_thumb.jpg"
+    - file: "abedtimestory_image3_full.jpg"
+      thumb: "abedtimestory_image3_thumb.jpg"
+    - file: "abedtimestory_image4_full.jpg"
+      thumb: "abedtimestory_image4_thumb.jpg"
+  download:
+    - file: "abedtimestory.zip"
+      platform: Windows
+- game:
+    name: Eternal Duty
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Defend your planet from catastrophic events. Enormous gorges, frosty ice storms, erupting volcanos, and giant meteors.
+
+      Withstand the forces of nature and help your civilization to stay alive in this mad world.
+  team:
+    name: Hofpower
+    members:
+      - Peter Hofbauer
+  winner: no
+  headerimage: "eternalduty_header.jpg"
+  images:
+    - file: "eternalduty_image1_full.jpg"
+      thumb: "eternalduty_image1_thumb.jpg"
+    - file: "eternalduty_image2_full.jpg"
+      thumb: "eternalduty_image2_thumb.jpg"
+    - file: "eternalduty_image3_full.jpg"
+      thumb: "eternalduty_image3_thumb.jpg"
+    - file: "eternalduty_image4_full.jpg"
+      thumb: "eternalduty_image4_thumb.jpg"
+  download:
+    - file: "eternaldutyWin.zip"
+      platform: Windows
+    - file: "eternaldutyMac.zip"
+      platform: Mac OS X
+    - file: "eternaldutyLinux.zip"
+      platform: Linux
+- game:
+    name: Space Politics
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Now that the earthlings took on their quest to colonize space, it's time to strike back before they arrive.
+
+      Grab your biggest asteroid blaster and destroy their space travel innovations.
+
+      But be careful: make sure to keep the earth-destroying oil facilities alive.
+
+      If climate change comes faster than their space rocket, you can outlive them!
+  team:
+    name: Bits Please 3.0
+    members:
+      - Florian Friedrich
+      - Dominik Hackl
+      - Michael Klammer
+      - Lukas Paul
+  winner: no
+  headerimage: "spacepolitics_header.jpg"
+  images:
+    - file: "spacepolitics_image1_full.jpg"
+      thumb: "spacepolitics_image1_thumb.jpg"
+    - file: "spacepolitics_image2_full.jpg"
+      thumb: "spacepolitics_image2_thumb.jpg"
+    - file: "spacepolitics_image3_full.jpg"
+      thumb: "spacepolitics_image3_thumb.jpg"
+    - file: "spacepolitics_image4_full.jpg"
+      thumb: "spacepolitics_image4_thumb.jpg"
+  download:
+    - file: "spacepolitics.zip"
+      platform: Windows
+- game:
+    name: Summoning Pet Demons
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      A game about a girl who tries to summon a new pet for herself. But her cat has other plans and manipulates the ritual. Instead of a pet, she summons a powerful demon who traps her inside a time loop two minutes before midnight.
+
+      Proof yourself worthy and solve all puzzles or you might never escape.
+  team:
+    name: ItsAFeature
+    members:
+      - Christoph Englert
+      - Jascha Hanisch
+      - Thomas Neumann
+      - Markus Raudaschl
+  winner: no
+  headerimage: "summoningpetdemons_header.jpg"
+  images:
+    - file: "summoningpetdemons_image1_full.jpg"
+      thumb: "summoningpetdemons_image1_thumb.jpg"
+    - file: "summoningpetdemons_image2_full.jpg"
+      thumb: "summoningpetdemons_image2_thumb.jpg"
+    - file: "summoningpetdemons_image3_full.jpg"
+      thumb: "summoningpetdemons_image3_thumb.jpg"
+    - file: "summoningpetdemons_image4_full.jpg"
+      thumb: "summoningpetdemons_image4_thumb.jpg"
+  download:
+    - file: "summoningpetdemonsWin.zip"
+      platform: Windows
+    - file: "summoningpetdemonsMac.zip"
+      platform: Mac OS X
+    - file: "summoningpetdemonsLinux.zip"
+      platform: Linux
