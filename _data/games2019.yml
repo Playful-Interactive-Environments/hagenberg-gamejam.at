@@ -32,6 +32,36 @@
     - file: "abedtimestory.zip"
       platform: Windows
 - game:
+    name: Block Western
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      You assume the role of a lone gunslinger who travels from ghost town to ghost town. Your mission: to build a bell tower just before midnight to ring in the witching hour.
+      
+      Collect building blocks, rotate and stack them on top of each other. You can only stand on top of not occupied blocks. Blocks underneath other blocks can't be picked up. To complete the tower, place the bell on the top. Use your gun to attack UFOs that try to steal your blocks.
+  team:
+    name: ジョナサンブローファンクラブ‼
+    members:
+      - Tobias Moshammer
+      - Harald Mühleder
+      - Wolfram Weingartner
+      - Klemens Wöhrer
+  winner: no
+  headerimage: "blockwestern_header.jpg"
+  images:
+    - file: "blockwestern_image1_full.jpg"
+      thumb: "blockwestern_image1_thumb.jpg"
+    - file: "blockwestern_image2_full.jpg"
+      thumb: "blockwestern_image2_thumb.jpg"
+    - file: "blockwestern_image3_full.jpg"
+      thumb: "blockwestern_image3_thumb.jpg"
+    - file: "blockwestern_image4_full.jpg"
+      thumb: "blockwestern_image4_thumb.jpg"
+  download:
+    - file: "blockwestern.zip"
+      platform: Windows
+- game:
     name: BLUT BLUT BLUT
     players: 1
     controls:
