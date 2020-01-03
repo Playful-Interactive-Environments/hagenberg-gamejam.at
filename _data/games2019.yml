@@ -130,6 +130,37 @@
     - file: "eternaldutyLinux.zip"
       platform: Linux
 - game:
+    name: Santa, Baby!
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      It's Christmas baby! Help Santa to gather all the things he needs for a successful Christmas eve. But behold, Father Christmas was a little bit late and there are only two minutes to Christmas! Be fast, be clever and save Christmas!
+
+      Don't forget to dress up and get all those presents into the sleigh. But there is much more to be done and there is only one good ending!
+  team:
+    name: "#teamnosleep"
+    members:
+      - Nathan Grinzinger
+      - Julia Hauptmann
+      - Jacqueline Lowe
+      - Johannes Lugstein
+      - Corina Sand
+  winner: no
+  headerimage: "santababy_header.jpg"
+  images:
+    - file: "santababy_image1_full.jpg"
+      thumb: "santababy_image1_thumb.jpg"
+    - file: "santababy_image2_full.jpg"
+      thumb: "santababy_image2_thumb.jpg"
+    - file: "santababy_image3_full.jpg"
+      thumb: "santababy_image3_thumb.jpg"
+    - file: "santababy_image4_full.jpg"
+      thumb: "santababy_image4_thumb.jpg"
+  download:
+    - file: "santababy.zip"
+      platform: Windows
+- game:
     name: Space Politics
     players: 1
     controls:
