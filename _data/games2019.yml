@@ -266,3 +266,38 @@
       platform: Mac OS X
     - file: "theblamegameLinux.zip"
       platform: Linux
+- game:
+    name: Valhella
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Valhella is a top-down 2D game about a Viking that gets sent to hell instead of Valhalla and accidentally starts an uprising by convincing prisoners, breaking down doors and dancing with demons.
+
+      The game consists of an overworld, where the player can move by using the WASD controls and the mouse for interaction, and three different minigames.
+
+      Minigames:
+      - Door knockdown: Hit any keys a certain amount of times, depending on difficulty, in a short timeframe (you can hit multiple keys at the same time)
+      - Convincing: W/A for moving up and down through the ear canal. Don’t hit anything on your way to achieve a score of 10 and to convince the prisoner successfully
+      - Dance Dance Demon Battle: Use the arrow keys to hit the shown arrow at the right time. Get through a short timeframe without making too many mistakes to win.
+  team:
+    name: Scouts & Sandbags
+    members:
+      - Martin Situm
+      - Sebastian Tombor
+      - Michael Winkler
+  winner: no
+  headerimage: "valhella_header.jpg"
+  images:
+    - file: "valhella_image1_full.jpg"
+      thumb: "valhella_image1_thumb.jpg"
+    - file: "valhella_image2_full.jpg"
+      thumb: "valhella_image2_thumb.jpg"
+    - file: "valhella_image3_full.jpg"
+      thumb: "valhella_image3_thumb.jpg"
+    - file: "valhella_image4_full.jpg"
+      thumb: "valhella_image4_thumb.jpg"
+  download:
+    - file: "valhella.zip"
+      platform: Windows
