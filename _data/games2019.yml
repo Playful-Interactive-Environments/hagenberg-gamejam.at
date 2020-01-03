@@ -267,6 +267,44 @@
     - file: "theblamegameLinux.zip"
       platform: Linux
 - game:
+    name: Time - emiT
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Finally, we are making a game about clocks
+      ...
+      and it's about time.
+
+      By walking forward, time flows forward.
+      By walking backward, time flows backward.
+      Stand still and time will not pass at all.
+      The clock shows the current time.
+
+      Travel through time in "Time - emiT".
+  team:
+    name: Tossorosso
+    members:
+      - Oliver Brandstetter
+      - Fabian Kainz
+      - Yvonne Marneth
+      - Marleigh Pach
+  winner: no
+  headerimage: "timeemit_header.jpg"
+  images:
+    - file: "timeemit_image1_full.jpg"
+      thumb: "timeemit_image1_thumb.jpg"
+    - file: "timeemit_image2_full.jpg"
+      thumb: "timeemit_image2_thumb.jpg"
+    - file: "timeemit_image3_full.jpg"
+      thumb: "timeemit_image3_thumb.jpg"
+    - file: "timeemit_image4_full.jpg"
+      thumb: "timeemit_image4_thumb.jpg"
+  download:
+    - file: "timeemit.zip"
+      platform: Windows
+- game:
     name: Valhella
     players: 1
     controls:
