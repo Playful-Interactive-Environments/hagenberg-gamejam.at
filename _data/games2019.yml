@@ -260,5 +260,9 @@
     - file: "theblamegame_image4_full.jpg"
       thumb: "theblamegame_image4_thumb.jpg"
   download:
-    - file: "theblamegame.zip"
+    - file: "theblamegameWin.zip"
       platform: Windows
+    - file: "theblamegameMac.zip"
+      platform: Mac OS X
+    - file: "theblamegameLinux.zip"
+      platform: Linux
