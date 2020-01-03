@@ -353,6 +353,7 @@
 	}
 	.footer_logo {
 	    text-align: center;
+		width: 25%;
 	}
 	.widget_top_area .footer_social {
 	    float: none;
@@ -436,7 +437,7 @@
         font-size: 30px;
     }
     .call_to_action_1 {
-        padding: 135px 0 70px;
+        padding: 95px 0 30px;
     }    
     .categories_main .categories_box .categories_info span.dot_c::after {
 		height: 0px;
@@ -635,6 +636,7 @@
 	}
 	.footer_logo {
 	    text-align: center;
+		width: 25%;
 	}
 	.widget_top_area .footer_social {
 	    float: none;
