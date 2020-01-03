@@ -561,6 +561,9 @@
         display: block;
         padding: 30px 40px;
     }
+	.mobile_menu_logo {
+		margin-top: -20px;
+	}
 	/*index_1.html*/
 	.onova_main_1_img {
 	    display: none;
@@ -614,6 +617,9 @@
 	}
 	.onova_img img{
 		width: 100%;
+	}
+	.call_to_action_1 .onova_img {
+		width: 50%;
 	}
 	.onova_right_box .call_button {
 	    float: none;
