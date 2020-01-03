@@ -26,7 +26,7 @@
     - file: "aubandln_image4_full.jpg"
       thumb: "aubandln_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/vk3QrOB7g5muoup"
+    - file: "aubandln.zip"
       platform: Windows
 - game:
     name: Barking Hard
@@ -58,7 +58,7 @@
     - file: "barkinghard_image4_full.jpg"
       thumb: "barkinghard_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/moU7p17DovyJL5q"
+    - file: "barkinghard.zip"
       platform: Windows
 - game:
     name: Beewitched
@@ -89,7 +89,7 @@
     - file: "beewitched_image4_full.jpg"
       thumb: "beewitched_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/4HgM0rYsk8F0U90"
+    - file: "beewitched.zip"
       platform: Windows
 - game:
     name: Flakingo's Witnesses
@@ -121,9 +121,9 @@
     - file: "flakingoswitnesses_image4_full.jpg"
       thumb: "flakingoswitnesses_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/BmaNU0ZwXFmU4uP"
+    - file: "flakingoswitnessesWin.zip"
       platform: Windows
-    - file: "https://filebox.fhooecloud.at/s/OmeVJseRpUv5guK"
+    - file: "flakingoswitnessesMac.zip"
       platform: Mac OS X
 - game:
     name: Fluffy
@@ -154,7 +154,7 @@
     - file: "fluffy_image4_full.jpg"
       thumb: "fluffy_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/qE1BLN0itoxVTAA"
+    - file: "fluffy.zip"
       platform: Windows
 - game:
     name: Hierarchy
@@ -181,7 +181,7 @@
     - file: "hierarchy_image4_full.jpg"
       thumb: "hierarchy_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/WrrIX6D14azmIwX"
+    - file: "hierarchy.zip"
       platform: Windows
 - game:
     name: Lead the Beat
@@ -210,7 +210,7 @@
     - file: "leadthebeat_image4_full.jpg"
       thumb: "leadthebeat_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/DkqNtx8llTrh5OY"
+    - file: "leadthebeat.zip"
       platform: Windows
 - game:
     name: Lego Erego
@@ -238,7 +238,7 @@
     - file: "legoerego_image4_full.jpg"
       thumb: "legoerego_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/VjPA3fT0O5Qnjjp"
+    - file: "legoerego.zip"
       platform: Windows
 - game:
     name: Prime Delivery
@@ -266,7 +266,7 @@
     - file: "primedelivery_image4_full.jpg"
       thumb: "primedelivery_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/UyqVtxC0KYU8yXG"
+    - file: "primedelivery.zip"
       platform: Windows
 - game:
     name: Quentin Québec's Quest for Questionable Quality
@@ -297,7 +297,7 @@
     - file: "quintupleq_image4_full.jpg"
       thumb: "quintupleq_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/OE1GHrqtzyxRZ8i"
+    - file: "quintupleq.zip"
       platform: Windows
 - game:
     name: The Saga of Droja
@@ -329,7 +329,7 @@
     - file: "thesagaofdroja_image4_full.jpg"
       thumb: "thesagaofdroja_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/Xg56hW87WBfo6dI"
+    - file: "thesagaofdrojaWin.zip"
       platform: Windows
-    - file: "https://filebox.fhooecloud.at/s/EuYlxM1xZJB4YdF"
+    - file: "thesagaofdrojaMac.zip"
       platform: Mac OS X

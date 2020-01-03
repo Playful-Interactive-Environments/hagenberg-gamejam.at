@@ -115,7 +115,7 @@
     - file: "krautundrueben_image4_full.jpg"
       thumb: "krautundrueben_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/BcHX4B4Ecez4Ltz"
+    - file: "krautundrueben.zip"
       platform: Windows
 - game:
     name: Last Minute Love
@@ -174,10 +174,8 @@
     - file: "santasdashdriver_image4_full.jpg"
       thumb: "santasdashdriver_image4_thumb.jpg"
   download:
-    - file: "https://filebox.fhooecloud.at/s/UJNdafL1ciwo6P5"
+    - file: "santasdashdriver.zip"
       platform: Windows
-    - file: "https://filebox.fhooecloud.at/s/JqZQlUnkfRkrlgW"
-      platform: Mac OS X
 - game:
     name: Smashtronaut
     players: 1
@@ -235,5 +233,5 @@
   download:
     - file: "youonlydieonceWin.zip"
       platform: Windows
-    - file: "https://filebox.fhooecloud.at/s/R96CUxUatETVN8T"
+    - file: "youonlydieonceMac.zip"
       platform: Mac OS X
