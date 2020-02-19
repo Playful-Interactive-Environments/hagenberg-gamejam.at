@@ -17,7 +17,7 @@
       - Dario Ackermann
       - Thomas Förg
       - Valentin Postl
-  winner: no
+  winner: people
   headerimage: "abedtimestory_header.jpg"
   images:
     - file: "abedtimestory_image1_full.jpg"
@@ -141,7 +141,7 @@
     name: Hofpower
     members:
       - Peter Hofbauer
-  winner: no
+  winner: jury
   headerimage: "eternalduty_header.jpg"
   images:
     - file: "eternalduty_image1_full.jpg"
