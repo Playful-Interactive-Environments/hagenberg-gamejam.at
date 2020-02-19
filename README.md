@@ -1,4 +1,5 @@
 # hagenberg-gamejam.at
+
 Website for the Hagenberg Game Jam
 
 ## Development on Windows
@@ -13,13 +14,19 @@ Get the Git binaries from <https://git-scm.com/> or download GitHub Desktop from
 
 Go to <http://rubyinstaller.org/>, download the latest installer for Ruby and run it. Also install the development kit so you can build native extensions.
 
+If you're using [Chocolatey](https://chocolatey.org/), run `choco install ruby` and `choco install ruby2.devkit`.
+
 ### Install all Gems with Bundler
 
-Use `bundle install` to install Jekyll and all required dependencies.
+First, install Bundler by calling `gem install bundler`. Then use `bundle install` to install Jekyll and all required dependencies.
 
 ### Start the development server
 
 Use `bundle exec jekyll serve --watch` to start the development server.
+
+### Build the site
+
+To build the site for deployment, call `bundle exec jekyll build`, then transfer the contents of the `_site` folder to the webserver.
 
 ## Development on Mac OS X
 
@@ -35,8 +42,12 @@ Use the Ruby Version Manager (RVM) to get the latest Ruby version installed. Go 
 
 ### Install all Gems with Bundler
 
-Use `bundle install` to install Jekyll and all required dependencies.
+First, install Bundler by calling `gem install bundler`. Then use `bundle install` to install Jekyll and all required dependencies.
 
 ### Start the development server
 
 Use `bundle exec jekyll serve --watch` to start the development server.
+
+### Build the site
+
+To build the site for deployment, call `bundle exec jekyll build`, then transfer the contents of the `_site` folder to the webserver.
