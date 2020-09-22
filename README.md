@@ -51,3 +51,7 @@ Use `bundle exec jekyll serve --watch` to start the development server.
 ### Build the site
 
 To build the site for deployment, call `bundle exec jekyll build`, then transfer the contents of the `_site` folder to the webserver.
+
+## Update Dependencies
+
+To update all Ruby gems involved run `bundle update`. To remove (now unused) older versions type `gem cleanup`.
