@@ -13,7 +13,7 @@
             <div class="row align-items-center wow slideInUp" data-wow-duration="1s">
               <div class="col-lg-12">
                 <div class="call_text">
-                  <p><time datetime="{{ page.startdate }}">{{ page.startdate | date_to_long_string: 'ordinal' }}</time> &amp; <time datetime="{{ page.enddate }}">{{ page.enddate | date_to_long_string: 'ordinal' }}</time> | <time datetime="PT{{ page.hours }}H">{{ page.hours }} hours</time></p>
+                  <p><time datetime="{{ page.startdate }}">{{ page.startdate | date_to_long_string: 'ordinal' }}</time>&ndash;<time datetime="{{ page.enddate }}">{{ page.enddate | date_to_long_string: 'ordinal' }}</time> | <time datetime="PT{{ page.hours }}H">{{ page.hours }} hours</time></p>
                   {% assign overall_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'overall'" %}
                   {% assign jury_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'jury'" %}
                   {% assign people_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'people'" %}
