@@ -19,7 +19,7 @@ facebook_url: "https://www.facebook.com/playful.interactive.environments/"
 youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
 github_url: "https://github.com/Playful-Interactive-Environments"
 
-latest_jam: "2019"
+latest_jam: "2020"
 voting_active: false
 voting_url: "https://www.facebook.com/pg/playful.interactive.environments/photos/?tab=album&album_id=3019083934824246"
 
@@ -70,6 +70,11 @@ page_gen:
     template: "game_details"
     name: game.name
     dir: "2019"
+  - index_files: false
+    data: "games2020"
+    template: "game_details"
+    name: game.name
+    dir: "2020"
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

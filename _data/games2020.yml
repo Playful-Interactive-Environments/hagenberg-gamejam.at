@@ -1,0 +1,124 @@
+- game:
+    name: Electronic Fart's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: Electronic Farts
+    members:
+      - Philipp Forstner
+      - Thomas Fürst
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: Linke Socke's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: Linke Socke
+    members:
+      - Moritz Großfurtner
+      - David Holy
+      - Mario Kerndler
+      - Maria Raser
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: Rechte Socke's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: Rechte Socke
+    members:
+      - Sebastian Beck
+      - Florian Buger
+      - Sonja Futterknecht
+      - Valentin Hauzinger
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: Sleep is for the Weak's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: Sleep is for the Weak
+    members:
+      - Özenc Dinler
+      - Sarah Haim
+      - Nico Hartl
+      - Jan Kaindl
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: The Shreckoning's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: The Shreckoning
+    members:
+      - Simon Ebner
+      - Matilda Gantner
+      - Stefan Penzinger
+      - Isa Pilzer
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: Ü's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: Ü
+    members:
+      - Marlne Mayr
+      - Matthias Patscheider
+      - Eric Thalhammer
+  winner: no
+  headerimage:
+  images:
+  download:
+- game:
+    name: zIMTDAtteln's Game
+    players: 1
+    controls:
+      - Keyboard
+    description: |
+      The game is still in development. Stay tuned!
+  team:
+    name: zIMTDAtteln
+    members:
+      - Patrick Brandstetter
+      - Natalie Dutzler
+      - Daniela Krückel
+      - Martina Maurer
+      - Tobias Sichmann
+  winner: no
+  headerimage:
+  images:
+  download:
