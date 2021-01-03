@@ -28,12 +28,17 @@
     - file: "area2020.zip"
       platform: Windows
 - game:
-    name: Linke Socke's Game
-    players: 1
+    name: Bodybuilder Blackout
+    players: 2
     controls:
-      - Keyboard
+      - keyboard
+      - mouse
     description: |
-      The game is still in development. Stay tuned!
+      The bodybuilder and artist pair Igor and Anastasia are trying to fix their fusebox in the dark without destroying their entire home. This game is intended as a co-op experience where communication is critical!
+
+      One player controls the game while the other has to guide them using the included document. The goal of the controlling player is to navigate a dark house and reach the goal while trying not to break anything and describe the environment to the advising player. The advising player's goal is to communicate with the controlling player, warn them of any breakable objects they might encounter, and help them solve small puzzles.
+
+      Both players have to communicate with each other to make it through the game successfully. It is recommended that the advising player doesn't look at the game screen during gameplay for the intended experience.
   team:
     name: Linke Socke
     members:
@@ -42,9 +47,19 @@
       - Mario Kerndler
       - Maria Raser
   winner: no
-  headerimage:
+  headerimage: "bodybuilderblackout_header.jpg"
   images:
+    - file: "bodybuilderblackout_image1_full.jpg"
+      thumb: "bodybuilderblackout_image1_thumb.jpg"
+    - file: "bodybuilderblackout_image2_full.jpg"
+      thumb: "bodybuilderblackout_image2_thumb.jpg"
+    - file: "bodybuilderblackout_image3_full.jpg"
+      thumb: "bodybuilderblackout_image3_thumb.jpg"
+    - file: "bodybuilderblackout_image4_full.jpg"
+      thumb: "bodybuilderblackout_image4_thumb.jpg"
   download:
+    - file: "bodybuilderblackout.zip"
+      platform: Windows
 - game:
     name: Rechte Socke's Game
     players: 1
