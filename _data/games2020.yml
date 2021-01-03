@@ -1,19 +1,32 @@
 - game:
-    name: Electronic Farts' Game
+    name: Area 2020
     players: 1
     controls:
-      - Keyboard
+      - keyboard
+      - mouse
     description: |
-      The game is still in development. Stay tuned!
+      Area 2020 is a 2.5D platformer where you can create a window into another dimension. This way, you can phase out or phase in certain objects or enemies.
+
+      With this powerful ability, you can escape the dangerous depths of Area 2020.
   team:
     name: Electronic Farts
     members:
       - Philipp Forstner
       - Thomas Fürst
   winner: no
-  headerimage:
+  headerimage: "area2020_header.jpg"
   images:
+    - file: "area2020_image1_full.jpg"
+      thumb: "area2020_image1_thumb.jpg"
+    - file: "area2020_image2_full.jpg"
+      thumb: "area2020_image2_thumb.jpg"
+    - file: "area2020_image3_full.jpg"
+      thumb: "area2020_image3_thumb.jpg"
+    - file: "area2020_image4_full.jpg"
+      thumb: "area2020_image4_thumb.jpg"
   download:
+    - file: "area2020.zip"
+      platform: Windows
 - game:
     name: Linke Socke's Game
     players: 1
