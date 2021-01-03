@@ -61,12 +61,15 @@
     - file: "bodybuilderblackout.zip"
       platform: Windows
 - game:
-    name: Rechte Socke's Game
+    name: Roberto Karotto
     players: 1
     controls:
-      - Keyboard
+      - keyboard
+      - mouse
     description: |
-      The game is still in development. Stay tuned!
+      While exploring abandoned sites, you have stumbled into the lair of a cult in possession of the golden carrot. While trying to regain this ancient treasure of your people, you must brave many dangers, including death.
+
+      But even that won’t stop you. If you die, just alter your past as a ghost, return to your body and keep going. Prevent your body from dying by moving cover, distracting enemies, or simply exterminating the threat.
   team:
     name: Rechte Socke
     members:
@@ -75,9 +78,19 @@
       - Sonja Futterknecht
       - Valentin Hauzinger
   winner: no
-  headerimage:
+  headerimage: "robertokarotto_header.jpg"
   images:
+    - file: "robertokarotto_image1_full.jpg"
+      thumb: "robertokarotto_image1_thumb.jpg"
+    - file: "robertokarotto_image2_full.jpg"
+      thumb: "robertokarotto_image2_thumb.jpg"
+    - file: "robertokarotto_image3_full.jpg"
+      thumb: "robertokarotto_image3_thumb.jpg"
+    - file: "robertokarotto_image4_full.jpg"
+      thumb: "robertokarotto_image4_thumb.jpg"
   download:
+    - file: "robertokarotto.zip"
+      platform: Windows
 - game:
     name: Sleep is for the Weak's Game
     players: 1
