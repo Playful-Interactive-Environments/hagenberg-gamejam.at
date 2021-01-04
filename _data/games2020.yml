@@ -153,24 +153,6 @@
     - file: "robertokarotto.zip"
       platform: Windows
 - game:
-    name: Sleep is for the Weak's Game
-    players: 1
-    controls:
-      - Keyboard
-    description: |
-      The game is still in development. Stay tuned!
-  team:
-    name: Sleep is for the Weak
-    members:
-      - Özenc Dinler
-      - Sarah Haim
-      - Nico Hartl
-      - Jan Kaindl
-  winner: no
-  headerimage:
-  images:
-  download:
-- game:
     name: Unplanet
     players: 1
     controls:
@@ -202,6 +184,34 @@
       platform: Windows
     - file: "unplanetLinux.zip"
       platform: Linux
+- game:
+    name: WIZZ
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      A game about a wizard who has to get his lost potions back: the theme is integrated by game mechanics that become easier to understand after figuring out what each potion does.
+  team:
+    name: Sleep is for the Weak
+    members:
+      - Özenc Dinler
+      - Sarah Haim
+      - Nico Hartl
+      - Jan Kaindl
+  winner: no
+  headerimage: "wizz_header.jpg"
+  images:
+    - file: "wizz_image1_full.jpg"
+      thumb: "wizz_image1_thumb.jpg"
+    - file: "wizz_image2_full.jpg"
+      thumb: "wizz_image2_thumb.jpg"
+    - file: "wizz_image3_full.jpg"
+      thumb: "wizz_image3_thumb.jpg"
+    - file: "wizz_image4_full.jpg"
+      thumb: "wizz_image4_thumb.jpg"
+  download:
+    - file: "wizz.zip"
+      platform: Windows
 - game:
     name: zIMTDAtteln's Game
     players: 1
