@@ -171,22 +171,37 @@
   images:
   download:
 - game:
-    name: Ü's Game
+    name: Unplanet
     players: 1
     controls:
-      - Keyboard
+      - keyboard
+      - mouse
     description: |
-      The game is still in development. Stay tuned!
+      So you somehow landed on this unearthly planet. It's weird, but you feel like you should definitely venture out to find secret objects hidden in the scene. That turns out to be a challenge, given that your vision becomes super trippy every time you find one.
+
+      But don't worry, the strange planet you are on is not hostile; it actually helps you: the colors of the environment become warmer the closer you get to your goal and colder the further you get away from it.
   team:
     name: Ü
     members:
-      - Marlne Mayr
+      - Marlene Mayr
       - Matthias Patscheider
       - Eric Thalhammer
   winner: no
-  headerimage:
+  headerimage: "unplanet_header.jpg"
   images:
+    - file: "unplanet_image1_full.jpg"
+      thumb: "unplanet_image1_thumb.jpg"
+    - file: "unplanet_image2_full.jpg"
+      thumb: "unplanet_image2_thumb.jpg"
+    - file: "unplanet_image3_full.jpg"
+      thumb: "unplanet_image3_thumb.jpg"
+    - file: "unplanet_image4_full.jpg"
+      thumb: "unplanet_image4_thumb.jpg"
   download:
+    - file: "unplanetWin.zip"
+      platform: Windows
+    - file: "unplanetLinux.zip"
+      platform: Linux
 - game:
     name: zIMTDAtteln's Game
     players: 1
