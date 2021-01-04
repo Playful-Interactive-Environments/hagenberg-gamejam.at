@@ -20,8 +20,8 @@ youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
 github_url: "https://github.com/Playful-Interactive-Environments"
 
 latest_jam: "2020"
-voting_active: false
-voting_url: "https://www.facebook.com/pg/playful.interactive.environments/photos/?tab=album&album_id=3019083934824246"
+voting_active: true
+voting_url: "https://www.facebook.com/media/set?vanity=playful.interactive.environments&set=a.3950946344971329"
 
 # Build settings
 #theme: minima
