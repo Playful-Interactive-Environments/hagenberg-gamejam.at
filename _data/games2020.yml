@@ -122,6 +122,39 @@
     - file: "cyberspace2020.zip"
       platform: Windows
 - game:
+    name: Hätte Hätte Fahrradkette
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Living alone on your small planet, you always try out new things. Your latest idea is to build a bike and drive around your whole world.
+      As you are a very creative inhabitant, you don't always do things the obvious way. Sometimes your craziest ideas also lead you to your goal.
+
+      Walk around the world to find all objects for building your bike!
+  team:
+    name: zIMTDAtteln
+    members:
+      - Patrick Brandstetter
+      - Natalie Dutzler
+      - Daniela Krückel
+      - Martina Maurer
+      - Tobias Sichmann
+  winner: no
+  headerimage: "haettehaettefahrradkette_header.jpg"
+  images:
+    - file: "haettehaettefahrradkette_image1_full.jpg"
+      thumb: "haettehaettefahrradkette_image1_thumb.jpg"
+    - file: "haettehaettefahrradkette_image2_full.jpg"
+      thumb: "haettehaettefahrradkette_image2_thumb.jpg"
+    - file: "haettehaettefahrradkette_image3_full.jpg"
+      thumb: "haettehaettefahrradkette_image3_thumb.jpg"
+    - file: "haettehaettefahrradkette_image4_full.jpg"
+      thumb: "haettehaettefahrradkette_image4_thumb.jpg"
+  download:
+    - file: "haettehaettefahrradkette.zip"
+      platform: Windows
+- game:
     name: Roberto Karotto
     players: 1
     controls:
@@ -212,22 +245,3 @@
   download:
     - file: "wizz.zip"
       platform: Windows
-- game:
-    name: zIMTDAtteln's Game
-    players: 1
-    controls:
-      - Keyboard
-    description: |
-      The game is still in development. Stay tuned!
-  team:
-    name: zIMTDAtteln
-    members:
-      - Patrick Brandstetter
-      - Natalie Dutzler
-      - Daniela Krückel
-      - Martina Maurer
-      - Tobias Sichmann
-  winner: no
-  headerimage:
-  images:
-  download:
