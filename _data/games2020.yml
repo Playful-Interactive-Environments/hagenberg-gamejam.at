@@ -79,7 +79,7 @@
       - David Holy
       - Mario Kerndler
       - Maria Raser
-  winner: no
+  winner: jury
   headerimage: "bodybuilderblackout_header.jpg"
   images:
     - file: "bodybuilderblackout_image1_full.jpg"
@@ -231,7 +231,7 @@
       - Sarah Haim
       - Nico Hartl
       - Jan Kaindl
-  winner: no
+  winner: people
   headerimage: "wizz_header.jpg"
   images:
     - file: "wizz_image1_full.jpg"
