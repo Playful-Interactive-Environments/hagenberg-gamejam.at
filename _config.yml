@@ -1,13 +1,13 @@
 title: "Hagenberg Game Jam"
 description: > # this means to ignore newlines until "baseurl:"
-  Hagenberg Game Jam is a recurring 36 or 24 hour long game jam event held at the end of December at the
+  Hagenberg Game Jam is a recurring 24 to 48 hour long game jam event held at the end of December at the
   Upper Austria University of Applied Sciences - School of Informatics, Communications and Media in Hagenberg by the
   research group Playful Interactive Environments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hagenberg-gamejam.at" # the base hostname & protocol for your site, e.g. http://example.com
 website: "https://pie-lab.at/"
 phone_number: "+8801763633959"
-email: "pie@fh-hagenberg.at"
+email: "info@hagenberg-gamejam.at"
 company_name: "Playful Interactive Environments"
 company_url: "https://pie-lab.at/"
 company_address: "Softwarepark 11, 4232 Hagenberg, Austria"
@@ -15,12 +15,14 @@ site_logo_dark: "/assets/images/gamejam_logo_dark.png"
 site_logo_light: "/assets/images/gamejam_logo_light.png"
 site_name: "Hagenberg Game Jam"
 
+instagram_url: "https://www.instagram.com/hagenberg_gamejam/"
 facebook_url: "https://www.facebook.com/playful.interactive.environments/"
 youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
 github_url: "https://github.com/Playful-Interactive-Environments"
+discord_url: "https://discord.gg/kh2rXBj8nr"
 
-latest_jam: "2020"
-voting_active: false
+latest_jam: "2022"
+voting_active: true
 voting_url: "https://www.facebook.com/media/set?vanity=playful.interactive.environments&set=a.3950946344971329"
 
 # Build settings
@@ -75,6 +77,11 @@ page_gen:
     template: "game_details"
     name: game.name
     dir: "2020"
+  - index_files: false
+    data: "games2022"
+    template: "game_details"
+    name: game.name
+    dir: "2022"
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
