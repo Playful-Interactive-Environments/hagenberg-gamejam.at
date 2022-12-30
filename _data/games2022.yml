@@ -30,7 +30,38 @@
   download:
     - file: "ekia.zip"
       platform: Windows
-
+- game:
+    name: Hack-IT
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are an expert hacker who a mysterious stranger contacts for contract work. You are asked to infiltrate an enemy system without asking any questions. However, it soon becomes clear that the stranger is willing to go to extreme lengths to achieve his goals.
+      
+      As you finish contracts, you earn money to upgrade your systems. Play multiple times to solve even the most challenging objectives.
+  team:
+    name: Sboonorp
+    members:
+      - Daniel Kleibl
+      - Daniel Pauli
+      - Michael Haindl
+      - Tim Willaert
+      - Stijn Driessens
+  winner: no
+  headerimage: "hackit_header.webp"
+  images:
+    - file: "hackit_image1_full.webp"
+      thumb: "hackit_image1_thumb.webp"
+    - file: "hackit_image2_full.webp"
+      thumb: "hackit_image2_thumb.webp"
+    - file: "hackit_image3_full.webp"
+      thumb: "hackit_image3_thumb.webp"
+    - file: "hackit_image4_full.webp"
+      thumb: "hackit_image4_thumb.webp"
+  download:
+    - file: "hackit.zip"
+      platform: Windows
 - game:
     name: The Rise and Fall of Bernd
     players: 1
