@@ -63,6 +63,34 @@
     - file: "hackit.zip"
       platform: Windows
 - game:
+    name: Snails with Feet
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Snails with feet is a little narrative-driven experience where you play as "Feetifax". Your character has one weakness, and that is that he stinks. That is why he is locked away from society.
+      
+      One day the resident of the fictional country "Feetaly" attempts to visit your town, but an accident happens. Your job is to rescue the president.
+  team:
+    name: Fungal Footed Friends
+    members:
+      - Valentin Postl
+      - Felix Rader
+  winner: no
+  headerimage: "snailswithfeet_header.webp"
+  images:
+    - file: "snailswithfeet_image1_full.webp"
+      thumb: "snailswithfeet_image1_thumb.webp"
+    - file: "snailswithfeet_image2_full.webp"
+      thumb: "snailswithfeet_image2_thumb.webp"
+    - file: "snailswithfeet_image3_full.webp"
+      thumb: "snailswithfeet_image3_thumb.webp"
+    - file: "snailswithfeet_image4_full.webp"
+      thumb: "snailswithfeet_image4_thumb.webp"
+  download:
+    - file: "snailswithfeet.zip"
+      platform: Windows
+- game:
     name: The Rise and Fall of Bernd
     players: 1
     controls:
