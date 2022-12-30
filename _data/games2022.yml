@@ -1,27 +1,61 @@
 - game:
-    name: Game Name
+    name: Ekia
     players: 1
     controls:
       - keyboard
       - mouse
     description: |
-      Game description.
+      The game is about an employee of a certain furniture store named Ekia. He is really good at being bad at his job because he is extremely introverted and avoids any customer interaction. However, to not lose his job, he has to complete several tasks throughout the day, like taking boxes from the pickup spot to the warehouse or taking care of accidents involving fake toilets. As he tries to complete his daily tasks, customers chase him, trying to get help from the employee. To get away, he can do actions like throwing cans of soda pop at them, or even hauling their children through the air, as this momentarily stuns them. 
+      
+      Listen for the enthusiastic Ekia colleagues that give you new tasks over the intercom!
   team:
-    name: Team Name
+    name: It'sAFeature
     members:
-      - Member 1
-      - Member 2
+      - Christoph Englert
+      - Ramona Kranzl
+      - Elisabeth Marx
+      - Laura Pointinger
+      - Jana Welte
   winner: no
-  headerimage: "game_header.jpg"
+  headerimage: "ekia_header.webp"
   images:
-    - file: "game_image1_full.jpg"
-      thumb: "game_image1_thumb.jpg"
-    - file: "game_image2_full.jpg"
-      thumb: "game_image2_thumb.jpg"
-    - file: "game_image3_full.jpg"
-      thumb: "game_image3_thumb.jpg"
-    - file: "game_image4_full.jpg"
-      thumb: "game_image4_thumb.jpg"
+    - file: "ekia_image1_full.webp"
+      thumb: "ekia_image1_thumb.webp"
+    - file: "ekia_image2_full.webp"
+      thumb: "ekia_image2_thumb.webp"
+    - file: "ekia_image3_full.webp"
+      thumb: "ekia_image3_thumb.webp"
+    - file: "ekia_image4_full.webp"
+      thumb: "ekia_image4_thumb.webp"
   download:
-    - file: "game.zip"
+    - file: "ekia.zip"
+      platform: Windows
+
+- game:
+    name: The Rise and Fall of Bernd
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      theriseandfallofbernd description.
+  team:
+    name: The Uncertain Result
+    members:
+      - Aaron Bandion
+      - Boris Steiner
+      - Ahmed Zerzour
+  winner: no
+  headerimage: "theriseandfallofbernd_header.webp"
+  images:
+    - file: "theriseandfallofbernd_image1_full.webp"
+      thumb: "theriseandfallofbernd_image1_thumb.webp"
+    - file: "theriseandfallofbernd_image2_full.webp"
+      thumb: "theriseandfallofbernd_image2_thumb.webp"
+    - file: "theriseandfallofbernd_image3_full.webp"
+      thumb: "theriseandfallofbernd_image3_thumb.webp"
+    - file: "theriseandfallofbernd_image4_full.webp"
+      thumb: "theriseandfallofbernd_image4_thumb.webp"
+  download:
+    - file: "theriseandfallofbernd.zip"
       platform: Windows
