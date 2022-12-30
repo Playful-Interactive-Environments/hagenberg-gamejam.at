@@ -150,6 +150,38 @@
     - file: "rotzbuab.zip"
       platform: Windows
 - game:
+    name: Santa's Crystal Mess
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Santa wakes up just a few minutes before Christmas. He overslept because the day before, he had been partying very hard with some of his elves. The other elves have decided they do not want to work for him anymore because he does not treat them very well.
+      
+      Santa has to collect as many gifts as possible before the time runs out to save Christmas. On his way around the hall, many elves block his way, and he has to overcome them and collect the gifts scattered around the hall.
+  team:
+    name: Angry Noodelz
+    members:
+      - Dario Ackermann
+      - Axel Bauer
+      - Thomas Förg
+      - Jascha Hanisch
+      - Wolfgang Schwendtbauer
+  winner: no
+  headerimage: "santascrystalmess_header.webp"
+  images:
+    - file: "santascrystalmess_image1_full.webp"
+      thumb: "santascrystalmess_image1_thumb.webp"
+    - file: "santascrystalmess_image2_full.webp"
+      thumb: "santascrystalmess_image2_thumb.webp"
+    - file: "santascrystalmess_image3_full.webp"
+      thumb: "santascrystalmess_image3_thumb.webp"
+    - file: "santascrystalmess_image4_full.webp"
+      thumb: "santascrystalmess_image4_thumb.webp"
+  download:
+    - file: "santascrystalmess.zip"
+      platform: Windows
+- game:
     name: Snails with Feet
     players: 1
     controls:
