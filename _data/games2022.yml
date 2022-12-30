@@ -119,6 +119,37 @@
     - file: "hackit.zip"
       platform: Windows
 - game:
+    name: Rotzbuab
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Rotzbuab (austr. for “snot boy”, alternatives include ‘louse boy’, ‘lout’, and ‘nuisance’, meaning: juvenile misbehaver) is not a game—it’s an experience. Become the neighborhood's snotty-nosed brat—revel in the power of a small boy wielding a carton of eggs, bottles and cans.
+      
+      Watch all the grown-ups quiver in fear as you approach, riding your dreaded tricycle. Crash! Boom! Just make sure you look Cool while vandalizing; you would not want to look uncool doing all this…
+      
+      The developers have cruelly abandoned this game due to a severe lack of time. There currently is no implemented win condition, so if you reach maximum swag, count yourself a winner!
+  team:
+    name: Moritz and the Machine
+    members:
+      - Mia Cain
+      - Hannah Höll
+  winner: no
+  headerimage: "rotzbuab_header.webp"
+  images:
+    - file: "rotzbuab_image1_full.webp"
+      thumb: "rotzbuab_image1_thumb.webp"
+    - file: "rotzbuab_image2_full.webp"
+      thumb: "rotzbuab_image2_thumb.webp"
+    - file: "rotzbuab_image3_full.webp"
+      thumb: "rotzbuab_image3_thumb.webp"
+    - file: "rotzbuab_image4_full.webp"
+      thumb: "rotzbuab_image4_thumb.webp"
+  download:
+    - file: "rotzbuab.zip"
+      platform: Windows
+- game:
     name: Snails with Feet
     players: 1
     controls:
@@ -145,35 +176,6 @@
       thumb: "snailswithfeet_image4_thumb.webp"
   download:
     - file: "snailswithfeet.zip"
-      platform: Windows
-- game:
-    name: Rotzbuab
-    players: 1
-    controls:
-      - keyboard
-      - mouse
-    description: |
-      Everyone in your street calls you the "Roatbuab", the menace of the street. Mount your tricycle, go down the street, and cause as much chaos as possible.
-      
-      Throw eggs and bottles at people, street signs and traffic lights. Hitting something increases your swag meter. Fill it up for great glory!
-  team:
-    name: Moritz and the Machine
-    members:
-      - Mia Cain
-      - Hannah Höll
-  winner: no
-  headerimage: "rotzbuab_header.webp"
-  images:
-    - file: "rotzbuab_image1_full.webp"
-      thumb: "rotzbuab_image1_thumb.webp"
-    - file: "rotzbuab_image2_full.webp"
-      thumb: "rotzbuab_image2_thumb.webp"
-    - file: "rotzbuab_image3_full.webp"
-      thumb: "rotzbuab_image3_thumb.webp"
-    - file: "rotzbuab_image4_full.webp"
-      thumb: "rotzbuab_image4_thumb.webp"
-  download:
-    - file: "rotzbuab.zip"
       platform: Windows
 - game:
     name: The Rise and Fall of Bernd
