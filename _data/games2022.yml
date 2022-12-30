@@ -28,6 +28,35 @@
     - file: "angelonprohibition.zip"
       platform: Windows
 - game:
+    name: Car Jack
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Ever wondered how to become THE perfect car mechanic? Try our highly accurate car mechanic simulator now! Available in VR\*! Repair, replace and tune cars at your heart's desire! Help Jack to repair all the cars and lead the cars to a longer life and DIFFERENT, MULTIPLE ENDINGS!
+  team:
+    name: Uppertale
+    members:
+      - Sarah Haim
+      - Johannes Huber
+      - Rui (Verena) Kremsmayr
+      - Kevin La
+  winner: no
+  headerimage: "carjack_header.webp"
+  images:
+    - file: "carjack_image1_full.webp"
+      thumb: "carjack_image1_thumb.webp"
+    - file: "carjack_image2_full.webp"
+      thumb: "carjack_image2_thumb.webp"
+    - file: "carjack_image3_full.webp"
+      thumb: "carjack_image3_thumb.webp"
+    - file: "carjack_image4_full.webp"
+      thumb: "carjack_image4_thumb.webp"
+  download:
+    - file: "carjack.zip"
+      platform: Windows
+- game:
     name: Ekia
     players: 1
     controls:
