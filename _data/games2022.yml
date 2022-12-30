@@ -31,6 +31,33 @@
     - file: "ekia.zip"
       platform: Windows
 - game:
+    name: "\"Good\" Boy"
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      "Good" Boy is about a recently adopted Shiba Inu puppy named Marshmallow, who doesn't know how to be a good boy for his owners. So he asks the experienced housecat, Mr. Mittens, for advice. But this devious feline doesn't like to have a dog around, so he tells Marshmallow that humans love destruction, turning the young dog into a destructive puppy. The game follows little Marshmallow through the house as he rips everything to bits!
+  team:
+    name: i++;
+    members:
+      - Michael Aichinger
+      - Katharina Hegedüs
+      - Andreas Schrattenecker
+  winner: no
+  headerimage: "goodboy_header.webp"
+  images:
+    - file: "goodboy_image1_full.webp"
+      thumb: "goodboy_image1_thumb.webp"
+    - file: "goodboy_image2_full.webp"
+      thumb: "goodboy_image2_thumb.webp"
+    - file: "goodboy_image3_full.webp"
+      thumb: "goodboy_image3_thumb.webp"
+    - file: "goodboy_image4_full.webp"
+      thumb: "goodboy_image4_thumb.webp"
+  download:
+    - file: "goodboy.zip"
+      platform: Windows
+- game:
     name: Hack-IT
     players: 1
     controls:
@@ -89,6 +116,35 @@
       thumb: "snailswithfeet_image4_thumb.webp"
   download:
     - file: "snailswithfeet.zip"
+      platform: Windows
+- game:
+    name: Rotzbuab
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Everyone in your street calls you the "Roatbuab", the menace of the street. Mount your tricycle, go down the street, and cause as much chaos as possible.
+      
+      Throw eggs and bottles at people, street signs and traffic lights. Hitting something increases your swag meter. Fill it up for great glory!
+  team:
+    name: Moritz and the Machine
+    members:
+      - Mia Cain
+      - Hannah Höll
+  winner: no
+  headerimage: "rotzbuab_header.webp"
+  images:
+    - file: "rotzbuab_image1_full.webp"
+      thumb: "rotzbuab_image1_thumb.webp"
+    - file: "rotzbuab_image2_full.webp"
+      thumb: "rotzbuab_image2_thumb.webp"
+    - file: "rotzbuab_image3_full.webp"
+      thumb: "rotzbuab_image3_thumb.webp"
+    - file: "rotzbuab_image4_full.webp"
+      thumb: "rotzbuab_image4_thumb.webp"
+  download:
+    - file: "rotzbuab.zip"
       platform: Windows
 - game:
     name: The Rise and Fall of Bernd
