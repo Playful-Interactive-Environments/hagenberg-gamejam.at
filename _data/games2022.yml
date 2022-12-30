@@ -1,4 +1,33 @@
 - game:
+    name: Angel on Prohibition
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In this game, you play as an aspiring guardian "angel" with a questionable moral compass. Your main objective is to protect the cute grandmas while they are crossing the street (they have very poor vision :/ ). For every evil car you smite (including the passengers), extra points can be earned. Smashing two cars together gives you a big bonus! But be careful not to harm pedestrian elders!
+  team:
+    name: Noobiesoft
+    members:
+      - Simone Feldbacher
+      - David Hohendanner
+      - Eric Keplinger
+      - Martin Siedler
+  winner: no
+  headerimage: "angelonprohibition_header.webp"
+  images:
+    - file: "angelonprohibition_image1_full.webp"
+      thumb: "angelonprohibition_image1_thumb.webp"
+    - file: "angelonprohibition_image2_full.webp"
+      thumb: "angelonprohibition_image2_thumb.webp"
+    - file: "angelonprohibition_image3_full.webp"
+      thumb: "angelonprohibition_image3_thumb.webp"
+    - file: "angelonprohibition_image4_full.webp"
+      thumb: "angelonprohibition_image4_thumb.webp"
+  download:
+    - file: "angelonprohibition.zip"
+      platform: Windows
+- game:
     name: Ekia
     players: 1
     controls:
