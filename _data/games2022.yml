@@ -57,6 +57,34 @@
     - file: "carjack.zip"
       platform: Windows
 - game:
+    name: Der Rattenfänger von Götschka
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      A man with a flute, a simple dream and nothing left to lose sets foot into an adventure of intrigue. Only the rats know his true motivation...
+  team:
+    name: Die Spieleentwickler
+    members:
+      - Marcel Hasieber
+      - Florian Winkler
+      - Sebastian Winkler
+  winner: no
+  headerimage: "derrattenfaengervongoetschka_header.webp"
+  images:
+    - file: "derrattenfaengervongoetschka_image1_full.webp"
+      thumb: "derrattenfaengervongoetschka_image1_thumb.webp"
+    - file: "derrattenfaengervongoetschka_image2_full.webp"
+      thumb: "derrattenfaengervongoetschka_image2_thumb.webp"
+    - file: "derrattenfaengervongoetschka_image3_full.webp"
+      thumb: "derrattenfaengervongoetschka_image3_thumb.webp"
+    - file: "derrattenfaengervongoetschka_image4_full.webp"
+      thumb: "derrattenfaengervongoetschka_image4_thumb.webp"
+  download:
+    - file: "derrattenfaengervongoetschka.zip"
+      platform: Windows
+- game:
     name: Ekia
     players: 1
     controls:
