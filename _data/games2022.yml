@@ -186,11 +186,11 @@
   team:
     name: Sboonorp
     members:
+      - Stijn Driessens
+      - Michael Haindl
       - Daniel Kleibl
       - Daniel Pauli
-      - Michael Haindl
       - Tim Willaert
-      - Stijn Driessens
   winner: no
   headerimage: "hackit_header.webp"
   images:
