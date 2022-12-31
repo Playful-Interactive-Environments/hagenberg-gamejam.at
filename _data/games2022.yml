@@ -117,6 +117,36 @@
     - file: "ekia.zip"
       platform: Windows
 - game:
+    name: Fund Raider
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Play as a Venetian who needs to outrun the global warming causing the rise of the water by jumping up the tall houses and edges provided. Along the way, you can even help people out and perhaps lessen the water with some good actions. Or make it rise faster by doing something bad.
+  team:
+    name: Suicide Squad
+    members:
+      - Antonia Klar
+      - Stefan Miskovic
+      - Sandro Tadic
+      - Julian Strunz
+      - Viktoria Wereszczynska
+  winner: no
+  headerimage: "fundraider_header.webp"
+  images:
+    - file: "fundraider_image1_full.webp"
+      thumb: "fundraider_image1_thumb.webp"
+    - file: "fundraider_image2_full.webp"
+      thumb: "fundraider_image2_thumb.webp"
+    - file: "fundraider_image3_full.webp"
+      thumb: "fundraider_image3_thumb.webp"
+    - file: "fundraider_image4_full.webp"
+      thumb: "fundraider_image4_thumb.webp"
+  download:
+    - file: "fundraider.zip"
+      platform: Windows
+- game:
     name: "\"Good\" Boy"
     players: 1
     controls:
