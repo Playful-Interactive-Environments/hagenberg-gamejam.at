@@ -193,7 +193,7 @@
       - Daniel Kleibl
       - Daniel Pauli
       - Tim Willaert
-  winner: no
+  winner: jury
   headerimage: "hackit_header.webp"
   images:
     - file: "hackit_image1_full.webp"
@@ -256,7 +256,7 @@
       - Thomas Förg
       - Jascha Hanisch
       - Wolfgang Schwendtbauer
-  winner: no
+  winner: people
   headerimage: "santascrystalmess_header.webp"
   images:
     - file: "santascrystalmess_image1_full.webp"
