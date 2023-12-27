@@ -1,4 +1,34 @@
 - game:
+    name: Felis ex Machina
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      The cats have had enough of the invading electronic (and water-shooting) devices in their lives. They are loud, big, and scary. So, the strongest cat embarks on a journey to destroy the power source of their enemies. The player must travel through three areas and defeat the natural enemies of cats like vacuums, water hoses, and finally, the electronic panel controlling the city's power. After each battle, they can choose from three items to make them stronger; some combinations even unlock secret, powerful variations.
+  team:
+    name: Dead Inside
+    members:
+      - Sabrina Braun
+      - Philipp Kienast
+      - Eric Stock
+  winner: no
+  headerimage: "felisexmachina_header.webp"
+  images:
+    - file: "felisexmachina_image1_full.webp"
+      thumb: "felisexmachina_image1_thumb.webp"
+    - file: "felisexmachina_image2_full.webp"
+      thumb: "felisexmachina_image2_thumb.webp"
+    - file: "felisexmachina_image3_full.webp"
+      thumb: "felisexmachina_image3_thumb.webp"
+    - file: "felisexmachina_image4_full.webp"
+      thumb: "felisexmachina_image4_thumb.webp"
+  download:
+    - file: "felisexmachinaWin.zip"
+      platform: Windows
+    - file: "felisexmachinaMac.zip"
+      platform: macOS
+- game:
     name: Postlair
     players: 1
     controls:
