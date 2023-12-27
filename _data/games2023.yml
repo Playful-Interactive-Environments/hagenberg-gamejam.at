@@ -1,0 +1,26 @@
+- game:
+    name: Name of the Game
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Description of the game.
+  team:
+    name: TeamName
+    members:
+      - Member 1
+  winner: no
+  headerimage: "game_header.webp"
+  images:
+    - file: "game_image1_full.webp"
+      thumb: "game_image1_thumb.webp"
+    - file: "game_image2_full.webp"
+      thumb: "game_image2_thumb.webp"
+    - file: "game_image3_full.webp"
+      thumb: "game_image3_thumb.webp"
+    - file: "game_image4_full.webp"
+      thumb: "game_image4_thumb.webp"
+  download:
+    - file: "game.zip"
+      platform: Windows

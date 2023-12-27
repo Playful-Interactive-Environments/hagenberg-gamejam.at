@@ -21,8 +21,8 @@ youtube_url: "https://www.youtube.com/channel/UCy8qACq_vlQXLsULwOLcx1A/"
 github_url: "https://github.com/Playful-Interactive-Environments"
 discord_url: "https://discord.gg/kh2rXBj8nr"
 
-latest_jam: "2022"
-voting_active: false
+latest_jam: "2023"
+voting_active: true
 voting_url: "https://www.instagram.com/hagenberg_gamejam/"
 
 # Build settings
@@ -82,6 +82,11 @@ page_gen:
     template: "game_details"
     name: game.name
     dir: "2022"
+  - index_files: false
+    data: "games2023"
+    template: "game_details"
+    name: game.name
+    dir: "2023"
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
