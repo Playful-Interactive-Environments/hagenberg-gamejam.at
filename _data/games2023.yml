@@ -1,26 +1,31 @@
 - game:
-    name: Name of the Game
+    name: Postlair
     players: 1
     controls:
       - keyboard
       - mouse
+      - gamepad
     description: |
-      Description of the game.
+      Postlair is a game about delivering packages to the right houses. You control the _BesAir_ delivery truck and have to shoot a package into the marked properties. As soon as you have delivered all packages, you must return to the post office to complete the day. In the office, you may buy upgrades with coins you can collect along the way. Each day, your remaining time will be converted into your score and added to your total score. Each day will get harder until you run out of time, at which point you will see your final score.
   team:
-    name: TeamName
+    name: 👾
     members:
-      - Member 1
+      - Dario Ackermann
+      - Axel Bauer
+      - Thomas Förg
+      - Jascha Hanisch
+      - Wolfgang Schwendtbauer
   winner: no
-  headerimage: "game_header.webp"
+  headerimage: "postlair_header.webp"
   images:
-    - file: "game_image1_full.webp"
-      thumb: "game_image1_thumb.webp"
-    - file: "game_image2_full.webp"
-      thumb: "game_image2_thumb.webp"
-    - file: "game_image3_full.webp"
-      thumb: "game_image3_thumb.webp"
-    - file: "game_image4_full.webp"
-      thumb: "game_image4_thumb.webp"
+    - file: "postlair_image1_full.webp"
+      thumb: "postlair_image1_thumb.webp"
+    - file: "postlair_image2_full.webp"
+      thumb: "postlair_image2_thumb.webp"
+    - file: "postlair_image3_full.webp"
+      thumb: "postlair_image3_thumb.webp"
+    - file: "postlair_image4_full.webp"
+      thumb: "postlair_image4_thumb.webp"
   download:
-    - file: "game.zip"
+    - file: "postlair.zip"
       platform: Windows
