@@ -218,6 +218,34 @@
     - file: "robxmasMac.zip"
       platform: macOS
 - game:
+    name: Salty Robots
+    players: 2
+    controls:
+      - keyboard
+    description: |
+      Mean robots that are insulting everyone have taken over the world. Only you are brave enough to defend your honor in this reaction game. The game has 2 levels with 4 enemies each, increasing in difficulty. Additionally, a PvP mode allows you to play against your friends. To win the game, you need to press W (P for Player 2) faster than your opponent once the Exclamation Mark appears on the screen.  If both you and your opponent press at the same time, you enter Clash mode, in which the winner is decided by whoever can press their button more often within 3 seconds. You lose immediately if you press your button before the exclamation mark appears.
+  team:
+    name: Git Commit Unalive
+    members:
+      - Michael Gahbauer
+      - Hannah Kloimüller
+      - Fabian Kopetzky
+      - Simon Saurer
+  winner: no
+  headerimage: "saltyrobots_header.webp"
+  images:
+    - file: "saltyrobots_image1_full.webp"
+      thumb: "saltyrobots_image1_thumb.webp"
+    - file: "saltyrobots_image2_full.webp"
+      thumb: "saltyrobots_image2_thumb.webp"
+    - file: "saltyrobots_image3_full.webp"
+      thumb: "saltyrobots_image3_thumb.webp"
+    - file: "saltyrobots_image4_full.webp"
+      thumb: "saltyrobots_image4_thumb.webp"
+  download:
+    - file: "saltyrobots.zip"
+      platform: Windows
+- game:
     name: Turbo Waddle
     players: 1
     controls:
