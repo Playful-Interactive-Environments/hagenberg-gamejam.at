@@ -125,6 +125,36 @@
     - file: "m-m.zip"
       platform: Windows
 - game:
+    name: Mean_Machine.exe
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Description of the title.
+  team:
+    name: Feuerbären
+    members:
+      - David Hohendanner
+      - Julian Strunz
+      - Viktoria Wereszczynska
+  winner: no
+  headerimage: "mean-machine-exe_header.webp"
+  images:
+    - file: "mean-machine-exe_image1_full.webp"
+      thumb: "mean-machine-exe_image1_thumb.webp"
+    - file: "mean-machine-exe_image2_full.webp"
+      thumb: "mean-machine-exe_image2_thumb.webp"
+    - file: "mean-machine-exe_image3_full.webp"
+      thumb: "mean-machine-exe_image3_thumb.webp"
+    - file: "mean-machine-exe_image4_full.webp"
+      thumb: "mean-machine-exe_image4_thumb.webp"
+  download:
+    - file: "mean-machine-exeWin.zip"
+      platform: Windows
+    - file: "mean-machine-exeMac.zip"
+      platform: macOS
+- game:
     name: Postlair
     players: 1
     controls:
