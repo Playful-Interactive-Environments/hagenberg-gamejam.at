@@ -33,6 +33,32 @@
     - file: "barnaby-b-brixtonLinux.zip"
       platform: Linux
 - game:
+    name: Broomba Brawl
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Play against your friends in an epic arena! Broomba Brawl lets you take control of up to four "Broombas" (vacuum robots) equipped with an assortment of weaponry. Destroy the other Broombas to claim victory!
+  team:
+    name: i+;
+    members:
+      - Michael Aichinger
+      - Katharina Hegedüs
+  winner: no
+  headerimage: "broombabrawl_header.webp"
+  images:
+    - file: "broombabrawl_image1_full.webp"
+      thumb: "broombabrawl_image1_thumb.webp"
+    - file: "broombabrawl_image2_full.webp"
+      thumb: "broombabrawl_image2_thumb.webp"
+    - file: "broombabrawl_image3_full.webp"
+      thumb: "broombabrawl_image3_thumb.webp"
+    - file: "broombabrawl_image4_full.webp"
+      thumb: "broombabrawl_image4_thumb.webp"
+  download:
+    - file: "broombabrawl.zip"
+      platform: Windows
+- game:
     name: "Cyberprincess: Scheils Revenge"
     players: 1
     controls:
@@ -131,7 +157,7 @@
       - keyboard
       - mouse
     description: |
-      Description of the title.
+      Warning ⚠️ Malicious software found. Immediate antivirus action is required! You take on the role of an antivirus program with the goal of eliminating the virus's root. But be cautious; it will fight back! Evade it by navigating through the files and saving the computer!
   team:
     name: Feuerbären
     members:
