@@ -29,6 +29,36 @@
     - file: "felisexmachinaMac.zip"
       platform: macOS
 - game:
+    name: M/M
+    players: 2
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      M/M is a split-screen 1 vs 1 game. Player 1 tries to complete an obstacle course while Player 2 monitors them over the cameras and tries to sabotage them with traps.
+  team:
+    name: Blackbird Studio
+    members:
+      - Matthias Achleitner
+      - Amon Brooklyn Cosmo Schilcher
+      - Johannes Schobesberger
+      - Vanessa Schwarz
+      - Alem Zdralovic
+  winner: no
+  headerimage: "m-m_header.webp"
+  images:
+    - file: "m-m_image1_full.webp"
+      thumb: "m-m_image1_thumb.webp"
+    - file: "m-m_image2_full.webp"
+      thumb: "m-m_image2_thumb.webp"
+    - file: "m-m_image3_full.webp"
+      thumb: "m-m_image3_thumb.webp"
+    - file: "m-m_image4_full.webp"
+      thumb: "m-m_image4_thumb.webp"
+  download:
+    - file: "m-m.zip"
+      platform: Windows
+- game:
     name: Postlair
     players: 1
     controls:
