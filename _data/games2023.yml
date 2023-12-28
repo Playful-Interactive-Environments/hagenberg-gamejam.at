@@ -1,4 +1,38 @@
 - game:
+    name: Barnaby B. Brixton and His Bedazzeling Bean Belt Contra the Machines
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Mr. Barnaby has always bean a law-obeying citizen (besides some minor incidents in the year of 68') - but now he must do what has to be done. Indulge in a beantastic adventure of intrigue and action. Meet various beans, fight evil robots. Will you be(an) ready to master this dangerous quest? Only the beans will be able to decide! This game is a chess-inspired rougelike, navigate through various levels and fight robots in a round-based setting. Only the beans know Barnaby B. Brixtons true motivation…
+  team:
+    name: Die Spieleentwickler
+    members:
+      - Marcel Hasieber
+      - Max Punz
+      - Martin Reder
+      - Florian Winkler
+      - Sebastian Winkler
+  winner: no
+  headerimage: "barnaby-b-brixton_header.webp"
+  images:
+    - file: "barnaby-b-brixton_image1_full.webp"
+      thumb: "barnaby-b-brixton_image1_thumb.webp"
+    - file: "barnaby-b-brixton_image2_full.webp"
+      thumb: "barnaby-b-brixton_image2_thumb.webp"
+    - file: "barnaby-b-brixton_image3_full.webp"
+      thumb: "barnaby-b-brixton_image3_thumb.webp"
+    - file: "barnaby-b-brixton_image4_full.webp"
+      thumb: "barnaby-b-brixton_image4_thumb.webp"
+  download:
+    - file: "barnaby-b-brixtonWin.zip"
+      platform: Windows
+    - file: "barnaby-b-brixtonMac.zip"
+      platform: macOS
+    - file: "barnaby-b-brixtonLinux.zip"
+      platform: Linux
+- game:
     name: "Cyberprincess: Scheils Revenge"
     players: 1
     controls:
