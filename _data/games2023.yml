@@ -217,3 +217,29 @@
       platform: Windows
     - file: "robxmasMac.zip"
       platform: macOS
+- game:
+    name: Turbo Waddle
+    players: 1
+    controls:
+      - experimental
+    description: |
+      This is a game about wanting cigarettes. Like cigarettes, this game is completely usable without a mouse or keyboard. You do it just with your mouth and body. You are Saul Dabby, and you really want to buy a cigarette from the cigarette machine. But unfortunately, things do not go as planned :( Control Saul Dabby with your Arms and Legs! All with just a normal Webcam.
+  team:
+    name: 🍄🦶💏
+    members:
+      - Valentin Postl
+      - Felix Rader
+  winner: no
+  headerimage: "turbowaddle_header.webp"
+  images:
+    - file: "turbowaddle_image1_full.webp"
+      thumb: "turbowaddle_image1_thumb.webp"
+    - file: "turbowaddle_image2_full.webp"
+      thumb: "turbowaddle_image2_thumb.webp"
+    - file: "turbowaddle_image3_full.webp"
+      thumb: "turbowaddle_image3_thumb.webp"
+    - file: "turbowaddle_image4_full.webp"
+      thumb: "turbowaddle_image4_thumb.webp"
+  download:
+    - file: "turbowaddle.zip"
+      platform: Windows
