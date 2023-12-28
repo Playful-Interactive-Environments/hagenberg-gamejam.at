@@ -1,4 +1,36 @@
 - game:
+    name: "Cyberprincess: Scheils Revenge"
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In 2025, with no sign of GTA 6, humanity faced a crisis—overwhelmed by artificial intelligence. Princess Scheil stepped up to rescue Toiletterau-City, a multicultural hub on the brink of chaos. Her mission: restore order to a world dominated by machines. To finish the game, find the GPT Walker, destroy it, and save the city from its doom!
+  team:
+    name: Die Lerngruppe
+    members:
+      - Julian Brunner
+      - Sarah Lindinger
+      - Thomas Scherleithner
+      - Lena Schweighofer
+      - Julian Stögmüller
+  winner: no
+  headerimage: "cyberprincess_header.webp"
+  images:
+    - file: "cyberprincess_image1_full.webp"
+      thumb: "cyberprincess_image1_thumb.webp"
+    - file: "cyberprincess_image2_full.webp"
+      thumb: "cyberprincess_image2_thumb.webp"
+    - file: "cyberprincess_image3_full.webp"
+      thumb: "cyberprincess_image3_thumb.webp"
+    - file: "cyberprincess_image4_full.webp"
+      thumb: "cyberprincess_image4_thumb.webp"
+  download:
+    - file: "cyberprincessWin.zip"
+      platform: Windows
+    - file: "cyberprincessMac.zip"
+      platform: macOS
+- game:
     name: Felis ex Machina
     players: 1
     controls:
