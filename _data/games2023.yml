@@ -155,3 +155,35 @@
   download:
     - file: "postlair.zip"
       platform: Windows
+- game:
+    name: RobXMas
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      The main character in this game is a loyal servant of Santa Claus. Just before Christmas, evil robots have stolen the presents. Santa has commanded the retrieval of these presents to save Christmas. The story unfolds with the main character pursuing the robots to a small village where the presents are hidden. The mission is to return all the presents before Christmas, and there is only a 10-minute window to accomplish this task. A significant challenge is that the character's only ability is to transform into a present to evade the robots. However, players must be cautious as this ability has a cooldown period. It is imperative to avoid being caught by the robots. The goal is to save as many presents as possible.
+  team:
+    name: Dreamers
+    members:
+      - Chuong Bui
+      - Ash Gorecka
+      - Stefan Miskovic
+      - Andreas Schrattenecker
+      - Sandro Tadic
+  winner: no
+  headerimage: "robxmas_header.webp"
+  images:
+    - file: "robxmas_image1_full.webp"
+      thumb: "robxmas_image1_thumb.webp"
+    - file: "robxmas_image2_full.webp"
+      thumb: "robxmas_image2_thumb.webp"
+    - file: "robxmas_image3_full.webp"
+      thumb: "robxmas_image3_thumb.webp"
+    - file: "robxmas_image4_full.webp"
+      thumb: "robxmas_image4_thumb.webp"
+  download:
+    - file: "robxmasWin.zip"
+      platform: Windows
+    - file: "robxmasMac.zip"
+      platform: macOS
