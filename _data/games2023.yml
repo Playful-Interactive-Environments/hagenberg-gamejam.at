@@ -121,6 +121,33 @@
     - file: "felisexmachinaMac.zip"
       platform: macOS
 - game:
+    name: Fight until the Ente
+    players: 1
+    controls:
+      - mouse
+    description: |
+      This game is about an evil duck who is sending robots into battle because she hates the world. The evil robots fight against the nice ones, and if the fight is won, the duck receives a new robot, which has to be corrupted. Then it will be sent into battle again. Until the end of time... (You can't win the game, but you can play it forever.)
+  team:
+    name: Nocturnal Ducks
+    members:
+      - Anja Greinecker
+      - Nori Greinecker
+      - Elias Wolschlager
+  winner: no
+  headerimage: "fightuntiltheente_header.webp"
+  images:
+    - file: "fightuntiltheente_image1_full.webp"
+      thumb: "fightuntiltheente_image1_thumb.webp"
+    - file: "fightuntiltheente_image2_full.webp"
+      thumb: "fightuntiltheente_image2_thumb.webp"
+    - file: "fightuntiltheente_image3_full.webp"
+      thumb: "fightuntiltheente_image3_thumb.webp"
+    - file: "fightuntiltheente_image4_full.webp"
+      thumb: "fightuntiltheente_image4_thumb.webp"
+  download:
+    - file: "fightuntiltheente.zip"
+      platform: Windows
+- game:
     name: Gyralf's Adventure
     players: 2
     controls:
