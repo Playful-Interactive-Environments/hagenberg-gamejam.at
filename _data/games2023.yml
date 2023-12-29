@@ -177,6 +177,38 @@
     - file: "gyralfsadventure.zip"
       platform: Windows
 - game:
+    name: Kyl vs. The Mean Dance Machine
+    players: 1
+    controls:
+      - experimental
+      - keyboard
+    description: |
+      In “Kyl vs. the Mean Dance Machine,” you play the main character, Kyl. Their dream is to ask Electrolytrica out on a date. Therefore, they go to her workplace - the arcade - to pick her up. Her mean co-workers try to hinder the date and challenge you to a dancebattle. Your goal is to defeat all evil co-workers one by one in a dance battle and win the final battle against Electrolytrica, which will decide over life and death (or marriage!?).
+  team:
+    name: Papas… Heiße Liebe
+    members:
+      - Simone Feldbacher
+      - Moritz Höll
+      - Leo Sametinger
+      - Martin Siedler
+      - Kathrin Staudinger
+  winner: no
+  headerimage: "kylvsthemeandancemachine_header.webp"
+  images:
+    - file: "kylvsthemeandancemachine_image1_full.webp"
+      thumb: "kylvsthemeandancemachine_image1_thumb.webp"
+    - file: "kylvsthemeandancemachine_image2_full.webp"
+      thumb: "kylvsthemeandancemachine_image2_thumb.webp"
+    - file: "kylvsthemeandancemachine_image3_full.webp"
+      thumb: "kylvsthemeandancemachine_image3_thumb.webp"
+    - file: "kylvsthemeandancemachine_image4_full.webp"
+      thumb: "kylvsthemeandancemachine_image4_thumb.webp"
+  download:
+    - file: "kylvsthemeandancemachineWin.zip"
+      platform: Windows
+    - file: "kylvsthemeandancemachineMac.zip"
+      platform: macOS
+- game:
     name: M/M
     players: 2
     controls:
