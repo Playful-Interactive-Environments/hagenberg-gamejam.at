@@ -360,6 +360,36 @@
     - file: "saltyrobots.zip"
       platform: Windows
 - game:
+    name: SteelPunk
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are a punk in a post-apocalyptic world, where the machines have taken over. Now, with your trusted baseball bat, you fight your way up to the big boss, Maschine.
+  team:
+    name: PommesParty🤙
+    members:
+      - Christian Gärtner
+      - Tobias Grantl
+      - Lukas Islek
+      - Matteo Meysel
+      - Robert Schmied
+  winner: no
+  headerimage: "steelpunk_header.webp"
+  images:
+    - file: "steelpunk_image1_full.webp"
+      thumb: "steelpunk_image1_thumb.webp"
+    - file: "steelpunk_image2_full.webp"
+      thumb: "steelpunk_image2_thumb.webp"
+    - file: "steelpunk_image3_full.webp"
+      thumb: "steelpunk_image3_thumb.webp"
+    - file: "steelpunk_image4_full.webp"
+      thumb: "steelpunk_image4_thumb.webp"
+  download:
+    - file: "steelpunk.zip"
+      platform: Windows
+- game:
     name: Tunder Muffin GmbH
     players: 1
     controls:
