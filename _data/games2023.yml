@@ -34,7 +34,7 @@
       platform: Linux
 - game:
     name: Broomba Brawl
-    players: 1
+    players: 4
     controls:
       - keyboard
     description: |
@@ -356,6 +356,34 @@
     - file: "mean-machine-exeMac.zip"
       platform: macOS
 - game:
+    name: MIEN MECHONI
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      The game takes place in the year 2707, where organic living beings are a rarity and, for their survival, have been confined in Zoos. There, they are a daily entertainment for robots, just living the same life day in and day out, in their small terrarium. You play the human in one of those zoos who has been planning their escape for some time now. And tonight, you have deemed to be THE day for your outbreak. But beware - there are many guards in the zoo, keeping a watch out for anomalies. You have to sneak past them, or - if the worst comes to worst - show your debate skills to try to convince the mean guards of you surely being a Fine Robot(TM).
+  team:
+    name: Team C
+    members:
+      - Jan Kaindl
+      - Marlene Kremsmayr
+      - Laura-Christina Palmetshofer
+  winner: no
+  headerimage: "mienmechoni_header.webp"
+  images:
+    - file: "mienmechoni_image1_full.webp"
+      thumb: "mienmechoni_image1_thumb.webp"
+    - file: "mienmechoni_image2_full.webp"
+      thumb: "mienmechoni_image2_thumb.webp"
+    - file: "mienmechoni_image3_full.webp"
+      thumb: "mienmechoni_image3_thumb.webp"
+    - file: "mienmechoni_image4_full.webp"
+      thumb: "mienmechoni_image4_thumb.webp"
+  download:
+    - file: "mienmechoni.zip"
+      platform: Windows
+- game:
     name: Postlair
     players: 1
     controls:
@@ -418,6 +446,36 @@
       platform: Windows
     - file: "robxmasMac.zip"
       platform: macOS
+- game:
+    name: Roomba's Revenge
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In "Roomba's Revenge", the player steps into the role of a small, old vacuuming robot, a.k.a. Roomba, which has been recently replaced by a new multi-purpose robot and cast away into the storage room. Feeling abandoned, the Roomba embarks on a stealthy mission through the house with the goal of retrieving a crucial return form locked inside a safe, which can reverse its fate. Players are required to navigate through various rooms, cleverly avoiding detection and collecting hidden items concealed in various pieces of furniture. The correct items bring the Roomba closer to unlocking the safe and reclaiming its place in the home. This game blends stealth and exploration elements, offering a unique perspective on household dynamics and the secret life of appliances.
+  team:
+    name: VoidSupport
+    members:
+      - Brenden Grace
+      - Michael Haindl
+      - Daniel Kleibl
+      - Tatiana Kuzmicheva
+      - Daniel Pauli
+  winner: no
+  headerimage: "roombasrevenge_header.webp"
+  images:
+    - file: "roombasrevenge_image1_full.webp"
+      thumb: "roombasrevenge_image1_thumb.webp"
+    - file: "roombasrevenge_image2_full.webp"
+      thumb: "roombasrevenge_image2_thumb.webp"
+    - file: "roombasrevenge_image3_full.webp"
+      thumb: "roombasrevenge_image3_thumb.webp"
+    - file: "roombasrevenge_image4_full.webp"
+      thumb: "roombasrevenge_image4_thumb.webp"
+  download:
+    - file: "roombasrevenge.zip"
+      platform: Windows
 - game:
     name: Salty Robots
     players: 2
