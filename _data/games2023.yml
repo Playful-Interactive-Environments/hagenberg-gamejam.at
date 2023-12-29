@@ -59,6 +59,34 @@
     - file: "broombabrawl.zip"
       platform: Windows
 - game:
+    name: Cognitive Conflict
+    players: 2
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Take a deep dive into a revolutionary turn-based strategy card game! Grab a friend and measure your wittiness in a dangerous city taken over by mean machines from space. Be careful, though! You will alter their motives based on how much morale you have as their leader!
+  team:
+    name: Team "B like B)"
+    members:
+      - Johannes Huber
+      - Kevin La
+      - Sebastian Schoibesberger
+  winner: no
+  headerimage: "cognitiveconflict_header.webp"
+  images:
+    - file: "cognitiveconflict_image1_full.webp"
+      thumb: "cognitiveconflict_image1_thumb.webp"
+    - file: "cognitiveconflict_image2_full.webp"
+      thumb: "cognitiveconflict_image2_thumb.webp"
+    - file: "cognitiveconflict_image3_full.webp"
+      thumb: "cognitiveconflict_image3_thumb.webp"
+    - file: "cognitiveconflict_image4_full.webp"
+      thumb: "cognitiveconflict_image4_thumb.webp"
+  download:
+    - file: "cognitiveconflict.zip"
+      platform: Windows
+- game:
     name: "Cyberprincess: Scheils Revenge"
     players: 1
     controls:
