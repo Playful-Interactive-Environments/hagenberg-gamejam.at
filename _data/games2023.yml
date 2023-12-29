@@ -125,7 +125,7 @@
       - keyboard
       - mouse
     description: |
-      Description of the title.
+      Factory Reset is a game about fixing robots.
   team:
     name: SuperTrashBros
     members:
@@ -566,7 +566,7 @@
     controls:
       - experimental
     description: |
-      This is a game about wanting cigarettes. Like cigarettes, this game is completely usable without a mouse or keyboard. You do it just with your mouth and body. You are Saul Dabby, and you really want to buy a cigarette from the cigarette machine. But unfortunately, things do not go as planned :( Control Saul Dabby with your Arms and Legs! All with just a normal Webcam.
+      This is a game about wanting cigarettes. Like cigarettes, this game is completely usable without a mouse or keyboard. You do it just with your mouth and body. You are Saul Dabby, and you really want to buy a cigarette from the cigarette machine. But unfortunately, things do not go as planned :( Control Saul Dabby with your arms and legs! All with just a normal webcam.
   team:
     name: 🍄🦶💏
     members:
