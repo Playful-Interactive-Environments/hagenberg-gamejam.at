@@ -177,6 +177,36 @@
     - file: "fightuntiltheente.zip"
       platform: Windows
 - game:
+    name: Game
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You play as a papa duck trying to find his baby ducklings and destroy the mean machine that pollutes the pond. You must complete 3 tasks to turn off the machine and return home.
+  team:
+    name: Team
+    members:
+      - Özenc Dinler
+      - Sarah Haim
+      - Kerstin Kaiser
+      - Rui Kremsmayr
+      - Daniel Leichinger
+  winner: no
+  headerimage: "game_header.webp"
+  images:
+    - file: "game_image1_full.webp"
+      thumb: "game_image1_thumb.webp"
+    - file: "game_image2_full.webp"
+      thumb: "game_image2_thumb.webp"
+    - file: "game_image3_full.webp"
+      thumb: "game_image3_thumb.webp"
+    - file: "game_image4_full.webp"
+      thumb: "game_image4_thumb.webp"
+  download:
+    - file: "game.zip"
+      platform: Windows
+- game:
     name: Gyralf's Adventure
     players: 2
     controls:
