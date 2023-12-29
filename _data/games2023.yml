@@ -91,6 +91,35 @@
     - file: "cyberprincessMac.zip"
       platform: macOS
 - game:
+    name: Factory Reset
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Description of the title.
+  team:
+    name: SuperTrashBros
+    members:
+      - Jonathan Kirchsteiger
+      - Anna Mittermayr
+      - Alexander Strauss
+      - Verena Treul
+  winner: no
+  headerimage: "factoryreset_header.webp"
+  images:
+    - file: "factoryreset_image1_full.webp"
+      thumb: "factoryreset_image1_thumb.webp"
+    - file: "factoryreset_image2_full.webp"
+      thumb: "factoryreset_image2_thumb.webp"
+    - file: "factoryreset_image3_full.webp"
+      thumb: "factoryreset_image3_thumb.webp"
+    - file: "factoryreset_image4_full.webp"
+      thumb: "factoryreset_image4_thumb.webp"
+  download:
+    - file: "factoryreset.zip"
+      platform: Windows
+- game:
     name: Felis ex Machina
     players: 1
     controls:
