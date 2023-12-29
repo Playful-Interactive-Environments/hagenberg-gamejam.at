@@ -125,7 +125,7 @@
       - keyboard
       - mouse
     description: |
-      Factory Reset is a game about fixing robots.
+      Factory Reset is a game about fixing robots. The robot randomly displays an error (screen flashing, plays one of the various voice lines); this error may be a kill event or a harmless bait event. Different signs hint at whether it is a kill or bait event—press Space to shut down the robot temporarily. The timer will keep ticking if the robot is shut down during a bait event. The game is over if the player does not shut down the robot fast enough during a kill event. Suppose the timer at the top reaches 0: game over. The game gets more challenging with each round; try to survive as many rounds as possible.
   team:
     name: SuperTrashBros
     members:
