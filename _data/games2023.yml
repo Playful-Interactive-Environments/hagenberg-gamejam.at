@@ -272,6 +272,32 @@
     - file: "saltyrobots.zip"
       platform: Windows
 - game:
+    name: Tunder Muffin GmbH
+    players: 1
+    controls:
+      - mouse
+    description: |
+      In the game 'Tunder Muffin GmbH,' you join three employees on their quest to avoid being fired. To boost productivity, they need to enhance their skills using small robots, ultimately aiming to defeat the ultimate office boss. The goal of this game is to level up the three employees by using helper robots, enabling them to defeat the final boss, the MEAN Printer. This auto-battle/strategy balance game not only tests players' strategic thinking but also demands quick decision-making and reflexes. When you kill a robot, the employee takes over the stats from the robot. Make them as strong as possible, but don't kill your own employees. A smart balance is important for a strong robot, but not too strong to kill one of the employees.
+  team:
+    name: It’s a Feature
+    members:
+      - Christoph Englert
+      - Laura Pointinger
+  winner: no
+  headerimage: "tundermuffingmbh_header.webp"
+  images:
+    - file: "tundermuffingmbh_image1_full.webp"
+      thumb: "tundermuffingmbh_image1_thumb.webp"
+    - file: "tundermuffingmbh_image2_full.webp"
+      thumb: "tundermuffingmbh_image2_thumb.webp"
+    - file: "tundermuffingmbh_image3_full.webp"
+      thumb: "tundermuffingmbh_image3_thumb.webp"
+    - file: "tundermuffingmbh_image4_full.webp"
+      thumb: "tundermuffingmbh_image4_thumb.webp"
+  download:
+    - file: "tundermuffingmbh.zip"
+      platform: Windows
+- game:
     name: Turbo Waddle
     players: 1
     controls:
