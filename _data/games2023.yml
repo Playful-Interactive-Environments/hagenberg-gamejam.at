@@ -121,6 +121,35 @@
     - file: "felisexmachinaMac.zip"
       platform: macOS
 - game:
+    name: Gyralf's Adventure
+    players: 2
+    controls:
+      - gamepad
+    description: |
+      In Gyralf's Adventure, you play as Gyralf, the last giraffe. Your goal is simple: survive. With water on one side of the arena and food on the other, you must go back and forth to balance your vitals. Collecting coins in the progress awards you with points. Be careful, though; a malevolent robot, suspicious banana, and other traps have set their sights on destroying the giraffe species.
+  team:
+    name: Marmeladespiel
+    members:
+      - Daniel Diaz
+      - Stijn Driessens
+      - Sidney Seewer
+      - Marije ter Veer
+      - Tim Willaert
+  winner: no
+  headerimage: "gyralfsadventure_header.webp"
+  images:
+    - file: "gyralfsadventure_image1_full.webp"
+      thumb: "gyralfsadventure_image1_thumb.webp"
+    - file: "gyralfsadventure_image2_full.webp"
+      thumb: "gyralfsadventure_image2_thumb.webp"
+    - file: "gyralfsadventure_image3_full.webp"
+      thumb: "gyralfsadventure_image3_thumb.webp"
+    - file: "gyralfsadventure_image4_full.webp"
+      thumb: "gyralfsadventure_image4_thumb.webp"
+  download:
+    - file: "gyralfsadventure.zip"
+      platform: Windows
+- game:
     name: M/M
     players: 2
     controls:
