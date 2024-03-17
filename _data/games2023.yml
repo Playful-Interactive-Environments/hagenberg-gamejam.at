@@ -102,7 +102,7 @@
       - Thomas Scherleithner
       - Lena Schweighofer
       - Julian Stögmüller
-  winner: no
+  winner: people
   headerimage: "cyberprincess_header.webp"
   images:
     - file: "cyberprincess_image1_full.webp"
@@ -400,7 +400,7 @@
       - Thomas Förg
       - Jascha Hanisch
       - Wolfgang Schwendtbauer
-  winner: no
+  winner: jury
   headerimage: "postlair_header.webp"
   images:
     - file: "postlair_image1_full.webp"
