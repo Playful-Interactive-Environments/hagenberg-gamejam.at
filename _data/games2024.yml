@@ -29,6 +29,36 @@
     - file: "aheistthroughthepast.zip"
       platform: Windows
 - game:
+    name: Blurred Thoughts
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Blurry Thoughts is a dark-themed first-person escape room puzzle game. The player progresses through three levels, where they must find VHS tapes using various clues. These tapes grant access to the next level while also providing hints for solving upcoming puzzles. The main levels include: Multiple-Choice "Door Test": The player must choose the correct door based on given hints. Maze: The player navigates through a labyrinth to find their way. The game features a mysterious atmosphere and holds a few surprises.
+  team:
+    name: Gadsen Enjoyers
+    members:
+      - Michael Gahbauer
+      - Jonathan Kirchsteiger
+      - Lilli Ölsinger
+      - Leonie Sattlecker
+      - Alem Zdralovic
+  winner: no
+  headerimage: "blurredthoughts_header.webp"
+  images:
+    - file: "blurredthoughts_image1_full.webp"
+      thumb: "blurredthoughts_thumb.webp"
+    - file: "blurredthoughts_image2_full.webp"
+      thumb: "blurredthoughts_image2_thumb.webp"
+    - file: "blurredthoughts_image3_full.webp"
+      thumb: "blurredthoughts_image3_thumb.webp"
+    - file: "blurredthoughts_image4_full.webp"
+      thumb: "blurredthoughts_image4_thumb.webp"
+  download:
+    - file: "blurredthoughts.zip"
+      platform: Windows
+- game:
     name: Box of Blocks
     players: 1
     controls:
