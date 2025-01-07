@@ -298,6 +298,36 @@
     - file: "retrorex.zip"
       platform: Windows
 - game:
+    name: Sands of the Ancient
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are a renowned treasure hunter and are about to make your biggest discovery ever. The gold wand of Thoth. But just as you get your hands on the staff, something changes... Time flows through the staff and lets you jump between times. Will this new ability help you find your way out?
+  team:
+    name: KPP
+    members:
+      - Christan Gärtner
+      - Lucas Hünniger
+      - Leon Nolte
+      - Matteo Meysel
+      - Hannah Götschl
+  winner: no
+  headerimage: "sandsoftheancient_header.webp"
+  images:
+    - file: "sandsoftheancient_image1_full.webp"
+      thumb: "sandsoftheancient_thumb.webp"
+    - file: "sandsoftheancient_image2_full.webp"
+      thumb: "sandsoftheancient_image2_thumb.webp"
+    - file: "sandsoftheancient_image3_full.webp"
+      thumb: "sandsoftheancient_image3_thumb.webp"
+    - file: "sandsoftheancient_image4_full.webp"
+      thumb: "sandsoftheancient_image4_thumb.webp"
+  download:
+    - file: "sandsoftheancient.zip"
+      platform: Windows
+- game:
     name: The Last Blast
     players: 1
     controls:
