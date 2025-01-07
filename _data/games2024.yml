@@ -28,3 +28,29 @@
   download:
     - file: "killingtime.zip"
       platform: Windows
+- game:
+    name: Pac-Man – Blast from the Past
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      A classic from the past – but with a twist: A PacMan-inspired game where you will encounter past versions of yourselves. Get as many points as you can!
+  team:
+    name: Camel with a Cherry on Top
+    members:
+      - Wenxi Yang
+      - David Trapp
+  winner: no
+  headerimage: "pacmanblastfromthepast_header.webp"
+  images:
+    - file: "pacmanblastfromthepast_image1_full.webp"
+      thumb: "pacmanblastfromthepast_thumb.webp"
+    - file: "pacmanblastfromthepast_image2_full.webp"
+      thumb: "pacmanblastfromthepast_image2_thumb.webp"
+    - file: "pacmanblastfromthepast_image3_full.webp"
+      thumb: "pacmanblastfromthepast_image3_thumb.webp"
+    - file: "pacmanblastfromthepast_image4_full.webp"
+      thumb: "pacmanblastfromthepast_image4_thumb.webp"
+  download:
+    - file: "pacmanblastfromthepast.zip"
+      platform: Windows
