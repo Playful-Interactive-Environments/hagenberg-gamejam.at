@@ -342,6 +342,7 @@ header.onova_header.onova_header_1 {
 
 .header_logo {
     max-height: 80px;
+    width: 100%;
 }
 
 .sticky {
@@ -1733,6 +1734,7 @@ textarea.form_control {
     right: 0;
     z-index: 999;
     background: #222;
+    padding: 5px 0;
 }
 
 

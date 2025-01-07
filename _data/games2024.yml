@@ -1,0 +1,34 @@
+- game:
+    name: App 1
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Description of App 1
+  team:
+    name: Team Name 1
+    members:
+      - Member 1
+      - Member 2
+      - Member 3
+      - Member 4
+      - Member 5
+  winner: no
+  headerimage: "app_header.webp"
+  images:
+    - file: "app_image1_full.webp"
+      thumb: "app_thumb.webp"
+    - file: "app_image2_full.webp"
+      thumb: "app_image2_thumb.webp"
+    - file: "app_image3_full.webp"
+      thumb: "app_image3_thumb.webp"
+    - file: "app_image4_full.webp"
+      thumb: "app_image4_thumb.webp"
+  download:
+    - file: "appWin.zip"
+      platform: Windows
+    - file: "appMac.zip"
+      platform: macOS
+    - file: "appLinux.zip"
+      platform: Linux

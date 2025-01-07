@@ -18,9 +18,11 @@
       url: "2020"
     - text: "2022"
       url: "2022"
+    - text: "2023"
+      url: "2023"
 
-- text: "2023"
-  url: "2023"
+- text: "2024"
+  url: "2024"
 
 - text: Rules
   url: "rules.html"
