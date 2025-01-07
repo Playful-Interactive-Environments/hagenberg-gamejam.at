@@ -1,4 +1,34 @@
 - game:
+    name: A Heist Through the Past
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      You play as a Thief robbing a museum in the Colosseum. In the museum's vault, you find an ancient blaster, capable of time-traveling. Now, you must escape while collecting as many other artifacts as possible. Maybe the blaster could be of help?
+  team:
+    name: Contenters24
+    members:
+      - Fabian Elias
+      - Laura Gabriel
+      - Reinhard Gruber
+      - David Precup
+      - Michael Sandhacker
+      - Robert Schmied
+  winner: no
+  headerimage: "aheistthroughthepast_header.webp"
+  images:
+    - file: "aheistthroughthepast_image1_full.webp"
+      thumb: "aheistthroughthepast_thumb.webp"
+    - file: "aheistthroughthepast_image2_full.webp"
+      thumb: "aheistthroughthepast_image2_thumb.webp"
+    - file: "aheistthroughthepast_image3_full.webp"
+      thumb: "aheistthroughthepast_image3_thumb.webp"
+    - file: "aheistthroughthepast_image4_full.webp"
+      thumb: "aheistthroughthepast_image4_thumb.webp"
+  download:
+    - file: "aheistthroughthepast.zip"
+      platform: Windows
+- game:
     name: Killing Time
     players: 1
     controls:
