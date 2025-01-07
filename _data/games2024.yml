@@ -297,3 +297,30 @@
   download:
     - file: "retrorex.zip"
       platform: Windows
+- game:
+    name: The Last Blast
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      "I will be back" - Step into the boots of Arni, the one and only. But he’s not the only thing coming back... Every enemy you take down returns fiercer, tougher, and bigger. The horde doesn’t stop—it evolves. Armed with sheer grit and firepower, you’ll fight wave after wave until your final stand. Make it to Round 10, and an old "friend" from last year might just pay you a visit—ready for a reckoning. Each kill earns you gold. Spend it wisely to upgrade your gear, boost your skills, and stay ahead in this relentless fight for survival. How long can you last when everything that dies... comes back stronger?
+  team:
+    name: ItsAFeature
+    members:
+      - Laura Pointinger
+      - Christoph Englert
+  winner: no
+  headerimage: "thelastblast_header.webp"
+  images:
+    - file: "thelastblast_image1_full.webp"
+      thumb: "thelastblast_thumb.webp"
+    - file: "thelastblast_image2_full.webp"
+      thumb: "thelastblast_image2_thumb.webp"
+    - file: "thelastblast_image3_full.webp"
+      thumb: "thelastblast_image3_thumb.webp"
+    - file: "thelastblast_image4_full.webp"
+      thumb: "thelastblast_image4_thumb.webp"
+  download:
+    - file: "thelastblast.zip"
+      platform: Windows
