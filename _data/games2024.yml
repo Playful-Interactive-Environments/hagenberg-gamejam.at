@@ -209,6 +209,35 @@
     - file: "pacmanblastfromthepast.zip"
       platform: Windows
 - game:
+    name: Pasta from the Blasta
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In "Pasta from the Blasta," you play the role of an elderly woman. Your grandchildren try to put you into a retirement home, but you still have some fight left in you! Fight against them trying to reach you by feeding them your world-famous "sticky noodles" from your noodle maker gun. As the name implies, your noodles are also sticky enough to help you get across obstacles, which might, sadly, be too much for your old limbs to handle on their own.
+  team:
+    name: Heiß und Fetting?
+    members:
+      - Axel Bauer
+      - Thomas Förg
+      - Jascha Hanisch
+      - Wolfgang Schwendtbauer
+  winner: no
+  headerimage: "pastafromtheblasta_header.webp"
+  images:
+    - file: "pastafromtheblasta_image1_full.webp"
+      thumb: "pastafromtheblasta_thumb.webp"
+    - file: "pastafromtheblasta_image2_full.webp"
+      thumb: "pastafromtheblasta_image2_thumb.webp"
+    - file: "pastafromtheblasta_image3_full.webp"
+      thumb: "pastafromtheblasta_image3_thumb.webp"
+    - file: "pastafromtheblasta_image4_full.webp"
+      thumb: "pastafromtheblasta_image4_thumb.webp"
+  download:
+    - file: "pastafromtheblasta.zip"
+      platform: Windows
+- game:
     name: Pipe.exe
     players: 1
     controls:
