@@ -29,6 +29,39 @@
     - file: "aheistthroughthepast.zip"
       platform: Windows
 - game:
+    name: Götschka 2077
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Grab your ghettoblaster, get your headphones ready, and put on your heelies! We are going for one hell of a ride! This game is guaranteed to blast you back into time. Slide across the retro-futuristic city of Götschka with your sleek heelies and perform sick tricks to earn score points and get boosts. Gain momentum by hitting the slope at the right angle. Let's make the city dream come true! Only the heelies know your true motivation.
+  team:
+    name: Die Spieleentwickler
+    members:
+      - Florian Winkler
+      - Marcel Hasieber
+      - Sebastian Winkler
+  winner: no
+  headerimage: "goetschka2077_header.webp"
+  images:
+    - file: "goetschka2077_image1_full.webp"
+      thumb: "goetschka2077_thumb.webp"
+    - file: "goetschka2077_image2_full.webp"
+      thumb: "goetschka2077_image2_thumb.webp"
+    - file: "goetschka2077_image3_full.webp"
+      thumb: "goetschka2077_image3_thumb.webp"
+    - file: "goetschka2077_image4_full.webp"
+      thumb: "goetschka2077_image4_thumb.webp"
+  download:
+    - file: "goetschka2077Win.zip"
+      platform: Windows
+    - file: "goetschka2077Mac.zip"
+      platform: macOS
+    - file: "goetschka2077Linux.zip"
+      platform: Linux
+    - file: "goetschka2077Web.zip"
+      platform: Web
+- game:
     name: Killing Time
     players: 1
     controls:
