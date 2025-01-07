@@ -176,6 +176,35 @@
     - file: "goetschka2077Web.zip"
       platform: Web
 - game:
+    name: HomsTimyWimyAdventure
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are Hom, a neanderthal. One day, a time traveler appears in front of you. Not knowing what or who he is you knock him out and take his strange glowy thingy. You must defeat hordes of enemies in the different time periods you travel to. You can time travel at any time, but traveling further makes enemies stronger, so be sure to level up. Try to get as far as possible before you lose.
+  team:
+    name: SuperTrashBros
+    members:
+      - Anna Mittermayr
+      - Hannah Kloimüller
+      - Florian Auzinger
+      - Alexander Strauss
+  winner: no
+  headerimage: "homstimywimyadventure_header.webp"
+  images:
+    - file: "homstimywimyadventure_image1_full.webp"
+      thumb: "homstimywimyadventure_thumb.webp"
+    - file: "homstimywimyadventure_image2_full.webp"
+      thumb: "homstimywimyadventure_image2_thumb.webp"
+    - file: "homstimywimyadventure_image3_full.webp"
+      thumb: "homstimywimyadventure_image3_thumb.webp"
+    - file: "homstimywimyadventure_image4_full.webp"
+      thumb: "homstimywimyadventure_image4_thumb.webp"
+  download:
+    - file: "homstimywimyadventure.zip"
+      platform: Windows
+- game:
     name: Killing Time
     players: 1
     controls:
