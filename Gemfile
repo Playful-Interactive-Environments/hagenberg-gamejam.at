@@ -28,6 +28,10 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+# Starting with Ruby 3.4.0, a few gems are not default gems anymore
+gem "logger"
+gem "csv"
+gem "base64"
 
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
