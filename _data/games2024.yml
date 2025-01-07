@@ -121,6 +121,38 @@
     - file: "killingtime.zip"
       platform: Windows
 - game:
+    name: Night Drive
+    players: 1
+    controls:
+      - keyboard
+      - gamepad
+    description: |
+      You are a kid sitting in the back of the car, your parents in the front seats. It's Christmas, and you are visiting your distant family - literally, in this case - and the drive is long and boring. Luckily, you brought your Digi-Box to keep you entertained! Unluckily, you get awfully sick on long car drives. Your goal: Beat your boredom, but also DON'T puke in Dad's new car (again) and get to the Christmas party. Beware! Some things can help with your nausea, but others aren't good at all...
+  team:
+    name: Final_Team
+    members:
+      - Tomás Franco
+      - Sarah Haim
+      - Josef Ibrahim
+      - Rui Kremsmayr
+      - Simon Saurer
+  winner: no
+  headerimage: "nightdrive_header.webp"
+  images:
+    - file: "nightdrive_image1_full.webp"
+      thumb: "nightdrive_thumb.webp"
+    - file: "nightdrive_image2_full.webp"
+      thumb: "nightdrive_image2_thumb.webp"
+    - file: "nightdrive_image3_full.webp"
+      thumb: "nightdrive_image3_thumb.webp"
+    - file: "nightdrive_image4_full.webp"
+      thumb: "nightdrive_image4_thumb.webp"
+  download:
+    - file: "nightdriveWin.zip"
+      platform: Windows
+    - file: "nightdriveMac.zip"
+      platform: macOS
+- game:
     name: Pac-Man – Blast from the Past
     players: 1
     controls:
