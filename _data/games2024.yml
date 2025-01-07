@@ -88,6 +88,32 @@
     - file: "boxofblocks.zip"
       platform: Windows
 - game:
+    name: Der Herr Lumpus
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Inspired by classic LucasArts point-and-click adventure games, Der Herr Lumpus follows a child who believes he is an adult. Imitating his perception of adult behavior, the story explores a day in his life as someone who thinks he is a tax consultant (Steuerberater) — or at least he thinks he is. The idea for Der Herr Lumpus originated from a pen-and-paper campaign we played, where Herr Lumpus became a standout character. His childlike mind and unique perspective on how children view the adult world made him the perfect protagonist for our game. The game is a short, pixel-art point-and-click adventure that captures the nostalgic charm of LucasArts titles like Monkey Island. Players interact using the left mouse button to look around, click on objects, and solve puzzles.
+  team:
+    name: Morty und die Steuerberater
+    members:
+      - Selina Behrens
+      - Florian Horak
+  winner: no
+  headerimage: "derherrlumpus_header.webp"
+  images:
+    - file: "derherrlumpus_image1_full.webp"
+      thumb: "derherrlumpus_thumb.webp"
+    - file: "derherrlumpus_image2_full.webp"
+      thumb: "derherrlumpus_image2_thumb.webp"
+    - file: "derherrlumpus_image3_full.webp"
+      thumb: "derherrlumpus_image3_thumb.webp"
+    - file: "derherrlumpus_image4_full.webp"
+      thumb: "derherrlumpus_image4_thumb.webp"
+  download:
+    - file: "derherrlumpus.zip"
+      platform: Windows
+- game:
     name: Götschka 2077
     players: 1
     controls:
