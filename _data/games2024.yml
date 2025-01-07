@@ -267,3 +267,33 @@
   download:
     - file: "pipeexe.zip"
       platform: Windows
+- game:
+    name: RetroRex
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Help Geralt, the T-Rex, through his journey at various retro levels. The scientist will try everything to revert his mistake of bringing you into the present, so you must stop him.
+  team:
+    name: i++++;
+    members:
+      - Sandro Tadic
+      - Andreas Schrattenecker
+      - Katharina Hegedüs
+      - Niklas Mikeska
+      - Michael Aichinger
+  winner: no
+  headerimage: "retrorex_header.webp"
+  images:
+    - file: "retrorex_image1_full.webp"
+      thumb: "retrorex_thumb.webp"
+    - file: "retrorex_image2_full.webp"
+      thumb: "retrorex_image2_thumb.webp"
+    - file: "retrorex_image3_full.webp"
+      thumb: "retrorex_image3_thumb.webp"
+    - file: "retrorex_image4_full.webp"
+      thumb: "retrorex_image4_thumb.webp"
+  download:
+    - file: "retrorex.zip"
+      platform: Windows
