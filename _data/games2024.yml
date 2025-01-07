@@ -117,3 +117,33 @@
   download:
     - file: "pacmanblastfromthepast.zip"
       platform: Windows
+- game:
+    name: Pipe.exe
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Your empty apartment, free time, and an old console. It's time to play those old games of your past again!
+  team:
+    name: Final_Final_Team
+    members:
+      - Özenc Dinler
+      - Kerstin Kaiser
+      - Selina Mensah
+      - Laura-Christina Palmetshofer
+      - Sebastian Schoibesberger
+  winner: no
+  headerimage: "pipeexe_header.webp"
+  images:
+    - file: "pipeexe_image1_full.webp"
+      thumb: "pipeexe_thumb.webp"
+    - file: "pipeexe_image2_full.webp"
+      thumb: "pipeexe_image2_thumb.webp"
+    - file: "pipeexe_image3_full.webp"
+      thumb: "pipeexe_image3_thumb.webp"
+    - file: "pipeexe_image4_full.webp"
+      thumb: "pipeexe_image4_thumb.webp"
+  download:
+    - file: "pipeexe.zip"
+      platform: Windows
