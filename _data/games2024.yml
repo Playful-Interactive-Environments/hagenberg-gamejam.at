@@ -114,6 +114,35 @@
     - file: "derherrlumpus.zip"
       platform: Windows
 - game:
+    name: Faeground
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Faeground is a cute looking game, where you play as a Fae that has just returned to their home after a short while (just a couple hundred years), only to find that their home has been replaced with a playground - what torture! So your goal now is to get rid of all those pesky children by magical ways!
+  team:
+    name: Nocturnal Ducks
+    members:
+      - Anja Greinecker
+      - Elias Wolschlager
+      - Harrison Girault Jones
+      - Justus Warm
+      - Nori Greinecker
+  winner: no
+  headerimage: "faeground_header.webp"
+  images:
+    - file: "faeground_image1_full.webp"
+      thumb: "faeground_thumb.webp"
+    - file: "faeground_image2_full.webp"
+      thumb: "faeground_image2_thumb.webp"
+    - file: "faeground_image3_full.webp"
+      thumb: "faeground_image3_thumb.webp"
+    - file: "faeground_image4_full.webp"
+      thumb: "faeground_image4_thumb.webp"
+  download:
+    - file: "faeground.zip"
+      platform: Windows
+- game:
     name: Götschka 2077
     players: 1
     controls:
