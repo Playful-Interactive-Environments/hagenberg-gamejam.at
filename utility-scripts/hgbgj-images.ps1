@@ -62,15 +62,15 @@ Get-ChildItem -Path $currentPath -Include *.jpg, *.png -Recurse | ForEach-Object
     $mainFilePath = Join-Path $outputPath $mainFileName
     if ($cropGeometry -ne "") {
         # Crop, resize, and set quality
-        magick convert $_.FullName -crop $cropGeometry -resize $mainSize -quality $quality $mainFilePath
+        magick $_.FullName -crop $cropGeometry -resize $mainSize -quality $quality $mainFilePath
     } else {
         # Just resize and set quality if aspect ratio is already 16:9
-        magick convert $_.FullName -resize $mainSize -quality $quality $mainFilePath
+        magick $_.FullName -resize $mainSize -quality $quality $mainFilePath
     }
 
     # Thumbnail processing
     $thumbnailFilePath = Join-Path $outputPath $thumbnailFileName
-    magick convert $mainFilePath -thumbnail $thumbnailSize -quality $quality $thumbnailFilePath
+    magick $mainFilePath -thumbnail $thumbnailSize -quality $quality $thumbnailFilePath
 
     # Increment the counter
     $counter++
