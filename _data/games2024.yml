@@ -29,6 +29,35 @@
     - file: "aheistthroughthepast.zip"
       platform: Windows
 - game:
+    name: Box of Blocks
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      In Box of Blocks, you play as the toy character that a child leads through a collection of different stories built with their toys.
+  team:
+    name: Final_Final_Team_v2
+    members:
+      - Jan Kaindl
+      - Maximilian Pulter
+      - Kevin La
+      - Nico Hartl
+      - Marlene Kremsmayr
+  winner: no
+  headerimage: "boxofblocks_header.webp"
+  images:
+    - file: "boxofblocks_image1_full.webp"
+      thumb: "boxofblocks_thumb.webp"
+    - file: "boxofblocks_image2_full.webp"
+      thumb: "boxofblocks_image2_thumb.webp"
+    - file: "boxofblocks_image3_full.webp"
+      thumb: "boxofblocks_image3_thumb.webp"
+    - file: "boxofblocks_image4_full.webp"
+      thumb: "boxofblocks_image4_thumb.webp"
+  download:
+    - file: "boxofblocks.zip"
+      platform: Windows
+- game:
     name: Götschka 2077
     players: 1
     controls:
