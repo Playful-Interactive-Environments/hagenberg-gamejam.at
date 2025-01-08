@@ -267,6 +267,36 @@
     - file: "nightdriveMac.zip"
       platform: macOS
 - game:
+    name: Ölige Fische putzen Spiele für Mädchen gratis online
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Welcome to your first day as a team member in our fish grooming clinic! Possibly linked to an unpreventable incident over at our friends' on Deepwater Horizon, business is booming, and we need your help! Take care of our incoming client by scrubbing, bathing, shampooing, decorating and loving it.
+  team:
+    name: 🍌🍜
+    members:
+      - Valentin Postl
+      - Jana Welte
+      - Felix Rader
+      - Moritz Höll
+      - Simone Feldbacher
+      - Ramona Kranzl
+  winner: no
+  headerimage: "oeligefischeputzen_header.webp"
+  images:
+    - file: "oeligefischeputzen_image1_full.webp"
+      thumb: "oeligefischeputzen_thumb.webp"
+    - file: "oeligefischeputzen_image2_full.webp"
+      thumb: "oeligefischeputzen_image2_thumb.webp"
+    - file: "oeligefischeputzen_image3_full.webp"
+      thumb: "oeligefischeputzen_image3_thumb.webp"
+    - file: "oeligefischeputzen_image4_full.webp"
+      thumb: "oeligefischeputzen_image4_thumb.webp"
+  download:
+    - file: "oeligefischeputzen.zip"
+      platform: Windows
+- game:
     name: Pac-Man – Blast from the Past
     players: 1
     controls:
