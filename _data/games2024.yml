@@ -438,3 +438,33 @@
   download:
     - file: "thelastblast.zip"
       platform: Windows
+- game:
+    name: The Whimsical Adventures Of Sir Trips A Lot
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      A platformer. The Game is set in a medieval era. Our protagonist, Sir Trips, must find his way home while seeing strange things after eating some unknown mushrooms. The game is won after getting to the end of the map.
+  team:
+    name: The Bug Awakens
+    members:
+      - Markus Esterer
+      - Philipp Plappert
+      - Rosa Ressi
+      - Ylvi Foff
+      - Theresa Ebner
+      - Neo Theißl
+  winner: no
+  headerimage: "sirtripsalot_header.webp"
+  images:
+    - file: "sirtripsalot_image1_full.webp"
+      thumb: "sirtripsalot_thumb.webp"
+    - file: "sirtripsalot_image2_full.webp"
+      thumb: "sirtripsalot_image2_thumb.webp"
+    - file: "sirtripsalot_image3_full.webp"
+      thumb: "sirtripsalot_image3_thumb.webp"
+    - file: "sirtripsalot_image4_full.webp"
+      thumb: "sirtripsalot_image4_thumb.webp"
+  download:
+    - file: "sirtripsalot.zip"
+      platform: Windows
