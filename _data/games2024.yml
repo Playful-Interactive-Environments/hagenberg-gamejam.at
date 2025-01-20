@@ -235,6 +235,35 @@
     - file: "killingtime.zip"
       platform: Windows
 - game:
+    name: Lost Knightlings
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+      - gamepad
+    description: |
+      In this multiplayer puzzle game, you and up to 2 of your friends embark on an epic adventure to save your kingdom from an invading alien force. Our heroes, the Hunter, the Jester, and the Warrior, have been teleported and find themselves amidst many dangers! Each of them brings a special item - by switching their equipment, our heroes can overcome any obstacle! Switch between your three heroes to get everyone to the flag. Try swapping their equipment and get creative with solving our puzzles!
+  team:
+    name: EAÜ
+    members:
+      - J S. Schönbauer
+      - Leo Sametinger
+      - Martin Siedler
+  winner: no
+  headerimage: "lostknightlings_header.webp"
+  images:
+    - file: "lostknightlings_image1_full.webp"
+      thumb: "lostknightlings_thumb.webp"
+    - file: "lostknightlings_image2_full.webp"
+      thumb: "lostknightlings_image2_thumb.webp"
+    - file: "lostknightlings_image3_full.webp"
+      thumb: "lostknightlings_image3_thumb.webp"
+    - file: "lostknightlings_image4_full.webp"
+      thumb: "lostknightlings_image4_thumb.webp"
+  download:
+    - file: "lostknightlings.zip"
+      platform: Windows
+- game:
     name: Night Drive
     players: 1
     controls:
