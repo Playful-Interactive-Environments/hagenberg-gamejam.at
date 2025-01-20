@@ -528,6 +528,36 @@
     - file: "thelastblast.zip"
       platform: Windows
 - game:
+    name: The Last Jerboa – Surviving Mesozoic
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are the last Jerboa! Get out in the Mesozoic age and try to survive the wilds. Gather food and other useful resources and return to your cave before the night appears. Back there, you can upgrade your safe place with crafting Rooms and make the life of your newborn Jerboa better than yours. Happy hoping, little mice!
+  team:
+    name: ALT+🦆(R)
+    members:
+      - Patrick Brandstätter
+      - Lisa Reichl
+      - Martina Maurer
+      - Hendrik Meindlhumer
+      - Daniel Wilfinger
+  winner: no
+  headerimage: "thelastjerboa_header.webp"
+  images:
+    - file: "thelastjerboa_image1_full.webp"
+      thumb: "thelastjerboa_thumb.webp"
+    - file: "thelastjerboa_image2_full.webp"
+      thumb: "thelastjerboa_image2_thumb.webp"
+    - file: "thelastjerboa_image3_full.webp"
+      thumb: "thelastjerboa_image3_thumb.webp"
+    - file: "thelastjerboa_image4_full.webp"
+      thumb: "thelastjerboa_image4_thumb.webp"
+  download:
+    - file: "thelastjerboa.zip"
+      platform: Windows
+- game:
     name: The Whimsical Adventures Of Sir Trips A Lot
     players: 1
     controls:
