@@ -441,6 +441,36 @@
     - file: "retrorex.zip"
       platform: Windows
 - game:
+    name: Rexplosion
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Oh no! You've been sucked through a time portal and find yourself in the prehistoric past! To make things worse, a giant volcano is erupting, and the explosion is hurling dinosaurs through the air! Before finding a way back to the future, you need to survive. Dodge the dinosaurs (and the panicking caveman) and collect as many shells as possible!
+  team:
+    name: Spicy Noodles
+    members:
+      - Philipp Kostecki
+      - Roman Groiss
+      - Lena Seiringer
+      - Sophia Kramar
+      - Alicia Fichtl
+  winner: no
+  headerimage: "rexplosion_header.webp"
+  images:
+    - file: "rexplosion_image1_full.webp"
+      thumb: "rexplosion_thumb.webp"
+    - file: "rexplosion_image2_full.webp"
+      thumb: "rexplosion_image2_thumb.webp"
+    - file: "rexplosion_image3_full.webp"
+      thumb: "rexplosion_image3_thumb.webp"
+    - file: "rexplosion_image4_full.webp"
+      thumb: "rexplosion_image4_thumb.webp"
+  download:
+    - file: "rexplosion.zip"
+      platform: Windows
+- game:
     name: Sands of the Ancient
     players: 1
     controls:
