@@ -326,6 +326,37 @@
     - file: "oeligefischeputzen.zip"
       platform: Windows
 - game:
+    name: One Night at Furby's
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      It's you in a room full of cute little Furbys. Except that it's a strange, unknown room. And it's dark. And the Furbys might not be that cute at all...
+  team:
+    name: Company Bären
+    members:
+      - David Hohendanner
+      - Janah Helly
+      - Viktoria Wereszczynska
+      - Julian Strunz
+      - Conny Pleichl
+      - Mathias Achleitner
+  winner: no
+  headerimage: "onenightatfurbys_header.webp"
+  images:
+    - file: "onenightatfurbys_image1_full.webp"
+      thumb: "onenightatfurbys_thumb.webp"
+    - file: "onenightatfurbys_image2_full.webp"
+      thumb: "onenightatfurbys_image2_thumb.webp"
+    - file: "onenightatfurbys_image3_full.webp"
+      thumb: "onenightatfurbys_image3_thumb.webp"
+    - file: "onenightatfurbys_image4_full.webp"
+      thumb: "onenightatfurbys_image4_thumb.webp"
+  download:
+    - file: "onenightatfurbys.zip"
+      platform: Windows
+- game:
     name: Pac-Man – Blast from the Past
     players: 1
     controls:
