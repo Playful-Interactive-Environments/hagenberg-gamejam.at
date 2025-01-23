@@ -2537,6 +2537,11 @@ textarea.form_control {
     padding-bottom: 120px;
 }
 
+.single_sponser {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .single_sponser img {
     margin: 0 auto;
 }
