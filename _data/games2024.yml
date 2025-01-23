@@ -128,7 +128,7 @@
       - Harrison Girault Jones
       - Justus Warm
       - Nori Greinecker
-  winner: no
+  winner: risingstars
   headerimage: "faeground_header.webp"
   images:
     - file: "faeground_image1_full.webp"
@@ -311,7 +311,7 @@
       - Moritz Höll
       - Simone Feldbacher
       - Ramona Kranzl
-  winner: no
+  winner: masterminds
   headerimage: "oeligefischeputzen_header.webp"
   images:
     - file: "oeligefischeputzen_image1_full.webp"
@@ -604,7 +604,7 @@
       - Ylvi Foff
       - Theresa Ebner
       - Neo Theißl
-  winner: no
+  winner: youngblood
   headerimage: "sirtripsalot_header.webp"
   images:
     - file: "sirtripsalot_image1_full.webp"

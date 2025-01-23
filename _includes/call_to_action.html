@@ -17,6 +17,9 @@
                   {% assign overall_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'overall'" %}
                   {% assign jury_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'jury'" %}
                   {% assign people_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'people'" %}
+                  {% assign youngblood_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'youngblood'" %}
+                  {% assign risingstars_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'risingstars'" %}
+                  {% assign masterminds_winner = site.data[page.data] | where_exp: "entry", "entry.winner contains 'masterminds'" %}
                   {% if overall_winner.size != 0 %}
                   <p>Overall winner: <a href="{{ overall_winner[0].game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}">{{ overall_winner[0].game.name }} by {{ overall_winner[0].team.name }}</a></p>
                   {% endif %}
@@ -25,6 +28,15 @@
                   {% endif %}
                   {% if people_winner.size != 0 %}
                   <p>People's choice winner: <a href="{{ people_winner[0].game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}">{{ people_winner[0].game.name }} by {{ people_winner[0].team.name }}</a></p>
+                  {% endif %}
+                  {% if youngblood_winner.size != 0 %}
+                  <p>Winner in the category <em>Young Blood</em>: <a href="{{ youngblood_winner[0].game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}">{{ youngblood_winner[0].game.name }} by {{ youngblood_winner[0].team.name }}</a></p>
+                  {% endif %}
+                  {% if risingstars_winner.size != 0 %}
+                  <p>Winner in the category <em>Rising Stars</em>: <a href="{{ risingstars_winner[0].game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}">{{ risingstars_winner[0].game.name }} by {{ risingstars_winner[0].team.name }}</a></p>
+                  {% endif %}
+                  {% if masterminds_winner.size != 0 %}
+                  <p>Winner in the category <em>Masterminds</em>: <a href="{{ masterminds_winner[0].game.name | slugify: 'latin' | prepend: page.url | prepend: site.baseurl | append: '.html' }}">{{ masterminds_winner[0].game.name }} by {{ masterminds_winner[0].team.name }}</a></p>
                   {% endif %}
                 </div>
               </div>
