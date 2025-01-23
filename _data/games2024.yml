@@ -618,3 +618,33 @@
   download:
     - file: "sirtripsalot.zip"
       platform: Windows
+- game:
+    name: Timelines Apart
+    players: 2
+    controls:
+      - keyboard
+    description: |
+      In Timelines Apart, a couple is torn apart by a rift in time—he is sent to the past, and she to the future. To reunite, they must navigate three challenging levels, solving puzzles and overcoming obstacles by exchanging clues and actions across their timelines. Their only hope lies in their ability to work together, bridging centuries to rewrite fate.
+  team:
+    name: Pixies
+    members:
+      - Arlind Frankulla
+      - Egor Podverbnii
+      - María Fernanda Zúñiga González
+      - Annabella Kósa
+      - Enes Kaynakci
+      - Ahmed Shahien
+  winner: no
+  headerimage: "timelinesapart_header.webp"
+  images:
+    - file: "timelinesapart_image1_full.webp"
+      thumb: "timelinesapart_thumb.webp"
+    - file: "timelinesapart_image2_full.webp"
+      thumb: "timelinesapart_image2_thumb.webp"
+    - file: "timelinesapart_image3_full.webp"
+      thumb: "timelinesapart_image3_thumb.webp"
+    - file: "timelinesapart_image4_full.webp"
+      thumb: "timelinesapart_image4_thumb.webp"
+  download:
+    - file: "timelinesapart.zip"
+      platform: Windows
