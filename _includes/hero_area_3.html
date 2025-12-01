@@ -18,6 +18,12 @@
                             <a href="{{ site.voting_url }}" class="onova_btn onova_btn_2 main_btn_1" target="_blank">Vote for the games of {{ site.latest_jam }}</a>
                             {%- endif -%}
                         </div>
+                        {%- if site.registration_active -%}
+                        <div class="onova_main_button mt-3">
+                            <a href="{{ site.registration_url }}" class="onova_btn onova_btn_3 main_btn_1" target="_blank">Register for the {{ site.next_jam }} game jam</a>
+                            <p class="text-white ml-3">Deadline: {{ site.registration_deadline | date_to_long_string: 'ordinal' }} at {{ site.registration_deadline | date: "%H:%M" }}</p>
+                        </div>
+                        {%- endif -%}
                     </div>
                 </div>
             </div>
